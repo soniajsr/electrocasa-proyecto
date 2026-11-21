@@ -8,5 +8,5 @@ def tracking_silver():
         spark.readStream.table("bronze.tracking_envios")
         .withColumn("estado_entrega", F.lower(F.trim(F.col("estado_entrega"))))
         .withColumn("courier", F.upper(F.trim(F.col("courier"))))
-        .dropDuplicates(["envio_id", "estado_entrega", "fecha_modificacion"])
+        .dropDuplicates(["tracking_id", "estado_entrega", "fecha_modificacion"]) #envio_id
     )

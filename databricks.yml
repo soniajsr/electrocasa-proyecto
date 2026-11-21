@@ -8,24 +8,39 @@ variables:
   catalogo:
     description: Catálogo de Unity Catalog por entorno
     default: electrocasa_dev
+  landing_path:
+    description: Ruta base del Volume donde Auto Loader lee las subcarpetas de fuentes
+    default: /Volumes/electrocasa_dev/default/vol_landing
   warehouse_id:
     description: ID del SQL Warehouse Serverless para tareas de validación
-    default: "<COMPLETAR_WAREHOUSE_ID>"
+    default: "71338e07a0c68d71"
   tracking_pipeline_id:
     description: ID del pipeline de Lakeflow Connect para Tracking de Envíos
-    default: "<COMPLETAR_TRACKING_PIPELINE_ID>"
+    default: "a37947e5-5b5e-46bb-bf07-bb95785e945b"
   notification_email:
     description: Correo electrónico real para alertas y fallos del job
-    default: "<COMPLETAR_TU_CORREO>"
+    default: "sonia.jsr@gmail.com"
 
 targets:
   dev:
     mode: development
     default: true
+    workspace:
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}
     variables:
       catalogo: electrocasa_dev
+      landing_path: /Volumes/electrocasa_dev/default/vol_landing
+    permissions:
+      - user_name: ${workspace.current_user.userName}
+        level: CAN_MANAGE
 
   prod:
     mode: production
+    workspace:
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}
     variables:
       catalogo: electrocasa_prod
+      landing_path: /Volumes/electrocasa_prod/default/vol_landing
+    permissions:
+      - user_name: ${workspace.current_user.userName}
+        level: CAN_MANAGE
