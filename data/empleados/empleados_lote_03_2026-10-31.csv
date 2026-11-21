@@ -1,0 +1,925 @@
+id_empleado,nombre,dni,email,salario,sucursal_id,cargo,tipo_evento,fecha_evento,fecha_registro
+EMP-01295,Oscar Rojas,77240140,oscar.rojas1295@electrocasa.pe,2395.62,S36,Vendedor,transferencia,2026-10-31,2026-11-05 15:33:07
+EMP-00576,Raul Cordova,70560533,raul.cordova576@electrocasa.pe,1841.11,S29,Cajero,TRANSFERENCIA,2026-10-16,2026-10-17 09:01:37
+EMP-00067,Carmen Ramirez,12619791,carmen.ramirez67@electrocasa.pe,3092.58,S16,Asesor de ventas,Baja,2026-10-02,2026-10-03 14:43:03
+EMP-00564,Raul Flores,23039485,raul.flores564@electrocasa.pe,1613.08,S06,Asesor de ventas,Transferencia,2026-10-04,2026-10-05 17:04:45
+EMP-00818,Rosa Ramirez,53720226,rosa.ramirez818@electrocasa.pe,2740.58,S23,Asesor de ventas,baja,2026-10-31,2026-11-02 10:33:10
+EMP-00003,Carlos Ccahuana,59464684,carlos.ccahuana3@electrocasa.pe,2474.04,S11,Vendedor,Cambio Salario,2026-09-02,2026-09-05 11:39:40
+EMP-00673,Rosa Cordova,52653199,rosa.cordova673@electrocasa.pe,3168.29,S14,Asesor de ventas,TRANSFERENCIA,2026-10-14,2026-10-14 18:07:02
+EMP-00902,Gabriela Rodriguez,22329164,gabriela.rodriguez902@electrocasa.pe,1441.49,S39,Vendedor,Baja,2026-09-04,2026-09-07 11:13:20
+EMP-01394,Fernando Salazar,59569468,fernando.salazar1394@electrocasa.pe,2120.2,S40,Vendedor,CAMBIO_SALARIO,2026-10-29,2026-10-31 13:48:50
+EMP-00488,Gabriela Cordova,54590486,gabriela.cordova488@electrocasa.pe,1735.12,S02,Cajero,TRANSFERENCIA,2026-10-23,2026-10-26 09:43:51
+EMP-01209,Raul Ccahuana,19861940,raul.ccahuana1209@electrocasa.pe,1879.16,S36,Asesor de ventas,ALTA,2026-09-27,2026-10-01 16:16:14
+EMP-00366,Daniela Rodriguez,71625425,daniela.rodriguez366@electrocasa.pe,1876.29,S28,Vendedor,TRANSFERENCIA,2026-09-27,2026-10-01 18:05:11
+EMP-01096,Carlos Huaman,32657229,carlos.huaman1096@electrocasa.pe,2441.23,S40,Encargado de almacen,ALTA,2026-09-14,2026-09-19 16:52:50
+EMP-00622,Jorge Gutierrez,45871356,jorge.gutierrez622@electrocasa.pe,2517.99,S18,Vendedor,Cambio Salario,2026-09-15,2026-09-19 11:42:16
+EMP-01167,Oscar Cordova,65973172,oscar.cordova1167@electrocasa.pe,1579.96,S04,Cajero,Baja,2026-10-23,2026-10-23 12:49:20
+EMP-00674,Javier Ccahuana,10844295,javier.ccahuana674@electrocasa.pe,2466.14,S10,Encargado de almacen,Cambio Salario,2026-09-18,2026-09-21 14:58:52
+EMP-00817,Jorge Paredes,47704816,jorge.paredes817@electrocasa.pe,3714.09,S27,Supervisor de tienda,ALTA,2026-09-29,2026-09-29 10:18:04
+EMP-00265,Diego Ccahuana,52626886,diego.ccahuana265@electrocasa.pe,2028.01,S11,Cajero,CAMBIO_SALARIO,2026-09-16,2026-09-18 17:13:23
+EMP-00918,Miguel Vargas,54097685,miguel.vargas918@electrocasa.pe,2416.95,S14,Vendedor,Cambio Salario,2026-09-20,2026-09-21 08:48:42
+EMP-00020,Rosa Cordova,25865209,rosa.cordova20@electrocasa.pe,2470.81,S13,Vendedor,cambio_salario,2026-10-12,2026-10-14 15:47:55
+EMP-00627,Patricia Salazar,59625586,patricia.salazar627@electrocasa.pe,3488.9,S19,Supervisor de tienda,Alta,2026-09-09,2026-09-09 12:28:21
+EMP-00525,Milagros Huaman,39422471,milagros.huaman525@electrocasa.pe,1353.69,S02,Vendedor,cese,2026-10-16,2026-10-20 14:56:55
+EMP-01430,Valeria Rodriguez,55335652,valeria.rodriguez1430@electrocasa.pe,2320.84,S28,Vendedor,cese,2026-10-24,2026-10-24 14:34:57
+EMP-00906,Miguel Paredes,42972318,miguel.paredes906@electrocasa.pe,2595.9,S17,Asesor de ventas,transferencia,2026-09-23,2026-09-23 11:11:38
+EMP-00945,Rosa Mamani,28734763,rosa.mamani945@electrocasa.pe,3901.55,S12,Supervisor de tienda,Cambio Salario,2026-09-18,2026-09-20 16:20:45
+EMP-00226,Diego Mendoza,31929397,diego.mendoza226@electrocasa.pe,1928.59,S29,Vendedor,transferencia,2026-10-17,2026-10-20 16:50:39
+EMP-00270,Daniela Rojas,46072042,daniela.rojas270@electrocasa.pe,2378.18,S15,Asesor de ventas,transferencia,2026-09-14,2026-09-17 12:45:13
+EMP-00319,Milagros Paredes,56491466,milagros.paredes319@electrocasa.pe,1960.57,S29,Vendedor,baja,2026-09-12,2026-09-13 16:17:20
+EMP-00543,Raul Flores,47831187,raul.flores543@electrocasa.pe,1950.48,S02,Cajero,TRANSFERENCIA,2026-10-12,2026-10-17 18:10:13
+EMP-00224,Raul Ccahuana,25210330,raul.ccahuana224@electrocasa.pe,1964.92,S23,Vendedor,Transferencia,2026-10-20,2026-10-25 08:58:46
+EMP-00651,Carmen Torres,64826857,carmen.torres651@electrocasa.pe,1781.59,S25,Vendedor,Transferencia,2026-09-16,2026-09-20 11:56:19
+EMP-00940,Oscar Cordova,50472424,oscar.cordova940@electrocasa.pe,1819.42,S39,Asesor de ventas,BAJA,2026-09-14,2026-09-14 13:09:21
+EMP-00862,Gabriela Mendoza,67078691,gabriela.mendoza862@electrocasa.pe,4605.04,S28,Supervisor de tienda,cambio_salario,2026-09-03,2026-09-08 15:09:06
+EMP-01490,Lucia Espinoza,57048149,lucia.espinoza1490@electrocasa.pe,2299.01,S20,Vendedor,Cambio Salario,2026-09-17,2026-09-17 17:11:25
+EMP-01095,Ricardo Torres,15778622,ricardo.torres1095@electrocasa.pe,1390.64,S21,Cajero,Transferencia,2026-09-23,2026-09-26 18:45:50
+EMP-00908,Milagros Mendoza,63606296,milagros.mendoza908@electrocasa.pe,3558.02,S38,Supervisor de tienda,cese,2026-10-16,2026-10-19 15:58:48
+EMP-00272,Luis Rojas,17213828,luis.rojas272@electrocasa.pe,1531.82,S37,Cajero,CAMBIO_SALARIO,2026-10-08,2026-10-09 13:11:37
+EMP-00327,Sofia Torres,66239228,sofia.torres327@electrocasa.pe,2371.11,S08,Encargado de almacen,Cambio Salario,2026-10-27,2026-10-31 18:45:12
+EMP-00573,Lucia Cordova,16526592,lucia.cordova573@electrocasa.pe,2006.86,S40,Asesor de ventas,Transferencia,2026-09-25,2026-09-26 10:08:03
+EMP-01455,Valeria Garcia,16326305,valeria.garcia1455@electrocasa.pe,1807.58,S24,Asesor de ventas,CAMBIO_SALARIO,2026-10-20,2026-10-22 10:09:50
+EMP-00730,Jorge Mendoza,46376280,jorge.mendoza730@electrocasa.pe,4707.81,S19,Supervisor de tienda,Transferencia,2026-09-25,2026-09-27 15:30:09
+EMP-01208,Daniela Ccahuana,55184149,daniela.ccahuana1208@electrocasa.pe,1789.94,S15,Vendedor,cambio_salario,2026-10-22,2026-10-26 14:47:36
+EMP-01368,Raul Castillo,14378883,raul.castillo1368@electrocasa.pe,1963.12,S30,Asesor de ventas,Alta,2026-09-26,2026-09-28 14:53:19
+EMP-00868,Carlos Mendoza,62573704,carlos.mendoza868@electrocasa.pe,193114.0,S35,Vendedor,Cambio Salario,2026-10-13,2026-10-15 11:30:49
+EMP-01171,Daniela Rodriguez,60258650,daniela.rodriguez1171@electrocasa.pe,2045.68,S37,Cajero,transferencia,2026-08-02,2026-10-10 10:09:00
+EMP-00923,Oscar Flores,53449801,oscar.flores923@electrocasa.pe,2162.32,S39,Vendedor,baja,2026-09-25,2026-09-30 13:43:16
+EMP-01000,Raul Vargas,39644662,raul.vargas1000@electrocasa.pe,2100.46,S39,Asesor de ventas,transferencia,2026-09-03,2026-09-07 12:12:12
+EMP-01155,Carmen Ccahuana,63866045,carmen.ccahuana1155@electrocasa.pe,1747.73,S17,Asesor de ventas,Cambio Salario,2026-10-31,2026-11-01 10:33:04
+EMP-00528,Karina Quispe,79804144,karina.quispe528@electrocasa.pe,2158.67,S04,Vendedor,TRANSFERENCIA,2026-10-14,2026-10-19 15:47:37
+EMP-00934,Fernando Rodriguez,63437712,fernando.rodriguez934@electrocasa.pe,2210.06,S04,Vendedor,CAMBIO_SALARIO,2026-10-25,2026-10-30 11:54:51
+EMP-01085,Ricardo Mamani,56344895,ricardo.mamani1085@electrocasa.pe,2440.59,S17,Asesor de ventas,Cambio Salario,2026-08-29,2026-09-03 13:58:53
+EMP-00467,Milagros Castillo,62719918,milagros.castillo467@electrocasa.pe,1382.48,S21,Vendedor,Transferencia,2026-10-12,2026-10-12 17:20:52
+EMP-00585,Raul Ramirez,61538409,raul.ramirez585@electrocasa.pe,2131.37,S18,Vendedor,cambio_salario,2026-09-28,2026-10-02 09:22:07
+EMP-00857,Javier Espinoza,52749587,javier.espinoza857@electrocasa.pe,2090.12,S10,Encargado de almacen,cambio_salario,2026-10-16,2026-10-18 15:10:47
+EMP-00933,Rosa Alvarez,21433625,rosa.alvarez933@electrocasa.pe,1453.87,S28,Vendedor,TRANSFERENCIA,2026-06-06,2026-10-09 17:21:00
+EMP-00160,Rosa Flores,39462498,rosa.flores160@electrocasa.pe,2180.59,S19,Asesor de ventas,transferencia,2026-10-18,2026-10-19 08:53:16
+EMP-01500,Ana Ramirez,29633014,ana.ramirez1500@electrocasa.pe,2527.26,S05,Asesor de ventas,transferencia,2026-08-31,2026-09-03 09:59:30
+EMP-00115,Fernando Ccahuana,37703786,fernando.ccahuana115@electrocasa.pe,1811.57,S15,Vendedor,Cambio Salario,2026-10-22,2026-10-22 10:11:12
+EMP-00847,Sofia Mendoza,32079072,sofia.mendoza847@electrocasa.pe,2422.33,S12,Vendedor,cambio_salario,2026-09-06,2026-09-06 16:01:17
+EMP-00011,Daniela Gutierrez,11886320,daniela.gutierrez11@electrocasa.pe,2025.91,S18,Vendedor,Cambio Salario,2026-10-05,2026-10-05 13:36:41
+EMP-01400,Fernando Mamani,58004612,fernando.mamani1400@electrocasa.pe,2237.07,S36,Vendedor,cambio_salario,2026-10-14,2026-10-15 13:21:23
+EMP-00439,Miguel Chavez,35448639,miguel.chavez439@electrocasa.pe,2051.18,S29,Asesor de ventas,CAMBIO_SALARIO,2026-09-21,2026-09-25 14:37:42
+EMP-00110,Hector Vargas,73980244,hector.vargas110@electrocasa.pe,2752.07,S21,Asesor de ventas,baja,2026-09-03,2026-09-04 15:34:01
+EMP-00586,Diego Huaman,37254639,diego.huaman586@electrocasa.pe,1834.67,S01,Cajero,CAMBIO_SALARIO,2026-10-08,2026-10-08 18:29:41
+EMP-00182,Raul Quispe,65410326,raul.quispe182@electrocasa.pe,1776.13,S30,Encargado de almacen,CAMBIO_SALARIO,2026-10-14,2026-10-19 16:05:05
+EMP-00881,Daniela Mendoza,27293229,daniela.mendoza881@electrocasa.pe,3159.52,S37,Supervisor de tienda,Alta,2026-09-30,2026-10-04 15:33:55
+EMP-01214,Hector Rojas,64382455,hector.rojas1214@electrocasa.pe,1809.07,S28,Cajero,CAMBIO_SALARIO,2026-09-07,2026-09-12 18:05:28
+EMP-01121,Carlos Vargas,49550710,carlos.vargas1121@electrocasa.pe,2581.69,S31,Vendedor,Cambio Salario,2026-09-06,2026-09-06 08:45:21
+EMP-00523,Carmen Paredes,71851249,carmen.paredes523@electrocasa.pe,3108.05,S09,Supervisor de tienda,cese,2026-10-11,2026-10-14 16:41:44
+EMP-00021,Ricardo Ramirez,23671972,ricardo.ramirez21@electrocasa.pe,2143.91,S08,Vendedor,ALTA,2026-09-24,2026-09-26 10:05:12
+EMP-00796,Daniela Castillo,10671826,daniela.castillo796@electrocasa.pe,2519.88,S02,Vendedor,cambio_salario,2026-09-30,2026-10-04 16:34:31
+EMP-00697,Karina Gutierrez,66118264,karina.gutierrez697@electrocasa.pe,2446.16,S11,Vendedor,CAMBIO_SALARIO,2026-10-12,2026-10-15 08:27:58
+EMP-00999,Patricia Flores,66734030,patricia.flores999@electrocasa.pe,2073.58,S20,Encargado de almacen,CAMBIO_SALARIO,2026-09-16,2026-09-19 09:08:42
+EMP-00064,Raul Chavez,32912611,raul.chavez64@electrocasa.pe,2708.9,S30,Asesor de ventas,cambio_salario,2026-10-10,2026-10-15 14:29:51
+EMP-01207,Miguel Espinoza,44876813,miguel.espinoza1207@electrocasa.pe,2579.08,S25,Vendedor,CAMBIO_SALARIO,2026-09-07,2026-09-08 16:30:56
+EMP-00111,Milagros Cordova,24170618,milagros.cordova111@electrocasa.pe,1975.27,S39,Cajero,CAMBIO_SALARIO,2026-09-09,2026-09-14 11:36:55
+EMP-01016,Javier Ccahuana,59661025,javier.ccahuana1016@electrocasa.pe,2381.08,S31,Asesor de ventas,Cambio Salario,2026-10-17,2026-10-18 16:20:44
+EMP-00429,Hector Torres,11284664,hector.torres429@electrocasa.pe,1431.97,S15,Vendedor,transferencia,2026-10-02,2026-10-07 13:31:53
+EMP-00044,Valeria Torres,40514194,valeria.torres44@electrocasa.pe,1685.11,S22,Vendedor,CAMBIO_SALARIO,2026-10-28,2026-11-01 15:23:41
+EMP-01052,Carlos Vargas,77387615,carlos.vargas1052@electrocasa.pe,1481.94,S32,Cajero,transferencia,2026-09-07,2026-09-11 10:56:10
+EMP-00925,Carmen Huaman,31965024,carmen.huaman925@electrocasa.pe,1460.72,S05,Cajero,CAMBIO_SALARIO,2026-10-06,2026-10-07 08:08:57
+EMP-01394,Fernando Salazar,59569468,fernando.salazar1394@electrocasa.pe,1862.53,S40,Vendedor,Transferencia,2026-09-20,2026-09-22 13:40:37
+EMP-01419,Daniela Salazar,62113914,daniela.salazar1419@electrocasa.pe,1929.82,S16,Encargado de almacen,transferencia,2026-10-27,2026-11-01 18:19:06
+EMP-00560,Javier Chavez,47972056,javier.chavez560@electrocasa.pe,2935.91,S34,Encargado de almacen,cese,2026-09-25,2026-09-26 09:14:33
+EMP-01374,Carmen Ccahuana,22098324,carmen.ccahuana1374@electrocasa.pe,1967.28,S26,Vendedor,ALTA,2026-09-22,2026-09-23 16:34:50
+EMP-00630,Daniela Cordova,55168567,daniela.cordova630@electrocasa.pe,1637.6,S03,Cajero,CAMBIO_SALARIO,2026-09-27,2026-09-27 17:53:02
+EMP-00679,Gabriela Salazar,41407181,gabriela.salazar679@electrocasa.pe,1837.66,S06,Encargado de almacen,Cambio Salario,2026-10-11,2026-10-13 16:42:24
+EMP-01340,Carlos Gutierrez,59808919,carlos.gutierrez1340@electrocasa.pe,6917.53,S10,Gerente de tienda,TRANSFERENCIA,2026-09-07,2026-09-07 13:31:38
+EMP-01413,Milagros Rojas,70148539,milagros.rojas1413@electrocasa.pe,2013.63,S38,Encargado de almacen,ALTA,2026-09-13,2026-09-16 18:01:25
+EMP-00843,Gabriela Vargas,61711897,gabriela.vargas843@electrocasa.pe,1523.98,S39,Vendedor,baja,2026-09-18,2026-09-23 08:05:09
+EMP-01210,Rosa Rojas,69696169,rosa.rojas1210@electrocasa.pe,7959.54,S08,Gerente de tienda,cambio_salario,2026-10-12,2026-10-17 14:17:50
+EMP-00617,Fernando Quispe,,fernando.quispe617@electrocasa.pe,2431.46,S31,Asesor de ventas,cambio_salario,,2026-09-30 12:38:24
+EMP-00234,Milagros Alvarez,13217195,milagros.alvarez234@electrocasa.pe,3033.11,S13,Asesor de ventas,Cambio Salario,2026-10-24,2026-10-25 10:12:55
+EMP-00702,Ana Cordova,58817679,ana.cordova702@electrocasa.pe,2811.79,S02,Asesor de ventas,transferencia,2026-09-26,2026-09-30 14:44:01
+EMP-00735,Daniela Ccahuana,24725901,daniela.ccahuana735@electrocasa.pe,1799.51,S36,Vendedor,Baja,2026-09-17,2026-09-17 12:01:53
+EMP-01306,Ana Ramirez,20695914,ana.ramirez1306@electrocasa.pe,2577.49,S37,Encargado de almacen,cambio_salario,2026-09-05,2026-09-07 10:45:02
+EMP-00326,Miguel Mamani,66313864,miguel.mamani326@electrocasa.pe,1557.28,S25,Cajero,TRANSFERENCIA,2026-09-04,2026-09-07 14:42:38
+EMP-00136,Lucia Alvarez,29955968,lucia.alvarez136@electrocasa.pe,2263.02,S40,Vendedor,CAMBIO_SALARIO,2026-10-12,2026-10-16 16:28:56
+EMP-01473,Valeria Salazar,67869724,valeria.salazar1473@electrocasa.pe,1551.2,S09,Asesor de ventas,TRANSFERENCIA,2026-10-26,2026-10-27 09:12:50
+EMP-01475,Daniela Alvarez,43159124,daniela.alvarez1475@electrocasa.pe,1744.9,S09,Asesor de ventas,cambio_salario,2026-10-18,2026-10-23 18:37:09
+EMP-00550,Raul Mamani,12546572,raul.mamani550@electrocasa.pe,1392.0,S39,Cajero,CAMBIO_SALARIO,2026-08-31,2026-09-02 15:40:50
+EMP-00581,Ricardo Vargas,33388033,ricardo.vargas581@electrocasa.pe,1541.27,S08,Cajero,CAMBIO_SALARIO,2026-10-18,2026-10-20 09:07:57
+EMP-00579,Miguel Huaman,47732101,miguel.huaman579@electrocasa.pe,2653.38,S35,Vendedor,Transferencia,2026-10-05,2026-10-05 13:54:24
+EMP-01416,Raul Ramirez,10452001,raul.ramirez1416@electrocasa.pe,1727.62,S22,Asesor de ventas,transferencia,2026-10-30,2026-10-31 15:31:50
+EMP-00412,Milagros Mamani,77010516,milagros.mamani412@electrocasa.pe,7299.46,S26,Gerente de tienda,Cambio Salario,2026-10-13,2026-10-15 11:00:50
+EMP-00407,Milagros Ramirez,75325929,milagros.ramirez407@electrocasa.pe,1625.26,S18,Vendedor,Cambio Salario,2026-09-29,2026-10-04 09:02:29
+EMP-00287,Lucia Rodriguez,61011176,lucia.rodriguez287@electrocasa.pe,2654.11,S25,Asesor de ventas,CAMBIO_SALARIO,2026-09-05,2026-09-06 13:19:48
+EMP-00634,Karina Rojas,50629221,karina.rojas634@electrocasa.pe,3018.84,S27,Asesor de ventas,Cambio Salario,,2026-10-06 18:07:36
+EMP-01482,Ricardo Cordova,15792362,ricardo.cordova1482@electrocasa.pe,1494.11,S27,Vendedor,ALTA,2026-09-22,2026-09-22 17:38:01
+EMP-00724,Lucia Vargas,16750681,lucia.vargas724@electrocasa.pe,1230.75,S05,Cajero,Transferencia,2026-10-01,2026-10-02 09:34:54
+EMP-01203,Carmen Vargas,34259977,carmen.vargas1203@electrocasa.pe,1761.64,S34,Vendedor,transferencia,2026-09-20,2026-09-21 13:50:45
+EMP-00915,Sofia Quispe,74288222,sofia.quispe915@electrocasa.pe,2522.44,S31,Asesor de ventas,cambio_salario,2026-09-30,2026-10-02 08:21:23
+EMP-01249,Carlos Huaman,77216453,carlos.huaman1249@electrocasa.pe,1763.34,S20,Encargado de almacen,BAJA,2026-10-15,2026-10-15 16:53:12
+EMP-01238,Carmen Quispe,31477102,carmen.quispe1238@electrocasa.pe,1676.14,S07,Vendedor,transferencia,2026-09-12,2026-09-12 15:10:09
+EMP-00065,Lucia Ccahuana,79160009,lucia.ccahuana65@electrocasa.pe,8507.68,S06,Gerente de tienda,cambio_salario,2026-10-24,2026-10-27 17:27:13
+EMP-01160,Karina Chavez,63508800,karina.chavez1160@electrocasa.pe,2908.96,S33,Encargado de almacen,transferencia,2026-08-29,2026-09-02 10:18:46
+EMP-00370,Milagros Paredes,47701245,milagros.paredes370@electrocasa.pe,2781.55,S36,Asesor de ventas,transferencia,2026-09-06,2026-09-09 15:55:48
+EMP-01446,Jorge Quispe,19234481,jorge.quispe1446@electrocasa.pe,1826.72,S01,Vendedor,Baja,2026-09-11,2026-09-16 08:53:53
+EMP-00118,Rosa Rodriguez,66108159,rosa.rodriguez118@electrocasa.pe,1592.01,S19,Cajero,CAMBIO_SALARIO,2026-09-11,2026-09-13 10:08:30
+EMP-00744,Miguel Salazar,47973021,miguel.salazar744@electrocasa.pe,2602.99,S35,Asesor de ventas,cambio_salario,2026-10-17,2026-10-18 18:18:43
+EMP-01271,Ricardo Vargas,72446694,ricardo.vargas1271@electrocasa.pe,3930.99,S13,Supervisor de tienda,cambio_salario,2026-09-29,2026-10-02 14:52:24
+EMP-00553,Jorge Flores,57846549,jorge.flores553@electrocasa.pe,1878.94,S22,Asesor de ventas,CAMBIO_SALARIO,2026-09-12,2026-09-14 10:29:37
+EMP-01196,Miguel Ccahuana,45701952,miguel.ccahuana1196@electrocasa.pe,1996.66,S38,Encargado de almacen,Transferencia,2026-09-04,2026-09-08 12:26:13
+EMP-00910,Daniela Alvarez,65381851,daniela.alvarez910@electrocasa.pe,2949.01,S19,Asesor de ventas,Transferencia,2026-09-15,2026-09-17 13:05:13
+EMP-00339,Oscar Rodriguez,52611277,oscar.rodriguez339@electrocasa.pe,2653.09,S21,Encargado de almacen,CAMBIO_SALARIO,2026-10-04,2026-10-05 13:15:01
+EMP-00171,Patricia Quispe,76341145,patricia.quispe171@electrocasa.pe,2569.39,S23,Asesor de ventas,Cambio Salario,2026-09-04,2026-09-05 09:44:20
+EMP-01376,Rosa Gutierrez,43761325,rosa.gutierrez1376@electrocasa.pe,2018.75,S13,Vendedor,cambio_salario,2026-10-26,2026-10-31 09:23:54
+EMP-01135,Patricia Torres,49609750,patricia.torres1135@electrocasa.pe,2280.98,S06,Cajero,Cambio Salario,2026-09-24,2026-09-27 12:16:50
+EMP-01110,Gabriela Castillo,67231527,gabriela.castillo1110@electrocasa.pe,2187.92,S19,Vendedor,cambio_salario,,2026-10-27 11:45:16
+EMP-00888,Raul Gutierrez,46321132,raul.gutierrez888@electrocasa.pe,2194.33,S36,Vendedor,Transferencia,2026-09-24,2026-09-25 16:16:16
+EMP-00750,Patricia Gutierrez,28689121,patricia.gutierrez750@electrocasa.pe,1875.91,S12,Vendedor,ALTA,2026-09-23,2026-09-28 17:40:13
+EMP-01142,Carlos Paredes,22814180,carlos.paredes1142@electrocasa.pe,1957.26,S37,Encargado de almacen,Cambio Salario,2026-09-13,2026-09-14 16:31:02
+EMP-00317,Hector Alvarez,63066980,hector.alvarez317@electrocasa.pe,1981.15,S26,Vendedor,Transferencia,2026-10-09,2026-10-11 18:24:24
+EMP-00006,Milagros Espinoza,51249332,milagros.espinoza6@electrocasa.pe,2123.65,S27,Vendedor,CAMBIO_SALARIO,2026-09-09,2026-09-09 13:24:02
+EMP-00602,Javier Paredes,26226067,javier.paredes602@electrocasa.pe,1950.78,S37,Asesor de ventas,cambio_salario,2026-09-21,2026-09-25 12:27:53
+EMP-00204,Carlos Mendoza,40151736,carlos.mendoza204@electrocasa.pe,1624.71,S37,Vendedor,ALTA,2026-09-05,2026-09-06 17:12:55
+EMP-00209,Daniela Chavez,29195102,daniela.chavez209@electrocasa.pe,2609.05,S26,Vendedor,Transferencia,2026-09-19,2026-09-21 11:29:46
+EMP-01436,Karina Huaman,50459848,karina.huaman1436@electrocasa.pe,1966.89,S02,Vendedor,Cambio Salario,2026-10-13,2026-10-13 18:51:02
+EMP-00389,Oscar Quispe,58545901,oscar.quispe389@electrocasa.pe,1682.14,S17,Vendedor,Transferencia,2026-10-13,2026-10-16 08:38:12
+EMP-01423,Sofia Paredes,64118350,sofia.paredes1423@electrocasa.pe,1496.47,S06,Vendedor,cambio_salario,2026-09-02,2026-09-04 10:08:10
+EMP-00400,Carlos Torres,54754233,carlos.torres400@electrocasa.pe,2049.01,S38,Asesor de ventas,Baja,,2026-09-21 11:15:11
+EMP-00544,Sofia Cordova,37388998,sofia.cordova544@electrocasa.pe,1815.89,S22,Vendedor,TRANSFERENCIA,2026-10-15,2026-10-17 18:20:13
+EMP-00995,Ana Mamani,34368933,ana.mamani995@electrocasa.pe,1952.87,S08,Asesor de ventas,Baja,2026-10-14,2026-10-15 11:26:22
+EMP-01140,Carmen Mamani,66749889,carmen.mamani1140@electrocasa.pe,1887.56,S18,Vendedor,Cambio Salario,2026-08-31,2026-09-05 08:29:58
+EMP-00015,Karina Rodriguez,53348290,karina.rodriguez15@electrocasa.pe,275291.0,S31,Encargado de almacen,Cambio Salario,2026-09-04,2026-09-08 09:26:03
+EMP-00279,Jorge Ccahuana,21531599,jorge.ccahuana279@electrocasa.pe,2314.71,S09,Vendedor,cambio_salario,2026-10-03,2026-10-05 17:49:13
+EMP-00132,Milagros Espinoza,48519042,milagros.espinoza132@electrocasa.pe,1840.28,S07,Vendedor,cambio_salario,2026-10-21,2026-10-21 13:45:52
+EMP-01308,Milagros Cordova,18915580,milagros.cordova1308@electrocasa.pe,1457.21,S14,Vendedor,Transferencia,2026-10-19,2026-10-21 15:45:55
+EMP-01122,Fernando Salazar,55943200,fernando.salazar1122@electrocasa.pe,3201.02,S10,Encargado de almacen,Cambio Salario,2026-09-26,2026-09-30 08:21:19
+EMP-01217,Sofia Torres,54785498,sofia.torres1217@electrocasa.pe,1791.05,S36,Vendedor,Transferencia,2026-10-10,2026-10-14 15:40:58
+EMP-00707,Fernando Ramirez,14430448,fernando.ramirez707@electrocasa.pe,3207.37,S27,Encargado de almacen,CAMBIO_SALARIO,2026-10-18,2026-10-19 12:10:57
+EMP-00299,Carmen Salazar,11256921,carmen.salazar299@electrocasa.pe,2942.58,S26,Asesor de ventas,Cambio Salario,2026-09-20,2026-09-25 11:46:24
+EMP-00504,Daniela Espinoza,70374452,daniela.espinoza504@electrocasa.pe,2115.53,S40,Vendedor,cambio_salario,2026-09-30,2026-10-03 12:54:23
+EMP-01224,Patricia Huaman,30114721,patricia.huaman1224@electrocasa.pe,1691.07,S40,Vendedor,transferencia,2026-09-14,2026-09-17 13:56:32
+EMP-00356,Daniela Alvarez,10504414,daniela.alvarez356@electrocasa.pe,2542.59,S39,Asesor de ventas,cambio_salario,2026-09-17,2026-09-18 10:54:23
+EMP-01059,Gabriela Paredes,30523089,gabriela.paredes1059@electrocasa.pe,3473.7,S29,Supervisor de tienda,Transferencia,2026-09-20,2026-09-24 12:38:35
+EMP-00641,Carlos Salazar,60710282,carlos.salazar641@electrocasa.pe,2482.98,S38,Asesor de ventas,CAMBIO_SALARIO,2026-09-09,2026-09-09 15:26:19
+EMP-00772,Jorge Salazar,25213299,jorge.salazar772@electrocasa.pe,1920.37,S32,Asesor de ventas,cambio_salario,2026-09-08,2026-09-08 09:35:09
+EMP-00413,Lucia Paredes,64371756,lucia.paredes413@electrocasa.pe,1592.1,S04,Asesor de ventas,ALTA,2026-09-06,2026-09-07 14:41:08
+EMP-00582,Hector Ramirez,34033880,hector.ramirez582@electrocasa.pe,3861.86,S18,Supervisor de tienda,Cambio Salario,2026-09-07,2026-09-11 17:34:12
+EMP-00949,Gabriela Ccahuana,56338611,gabriela.ccahuana949@electrocasa.pe,2280.05,S40,Asesor de ventas,Transferencia,2026-09-07,2026-09-07 08:55:16
+EMP-00637,Hector Quispe,14235996,hector.quispe637@electrocasa.pe,2011.43,S26,Vendedor,Baja,2026-09-26,2026-09-28 18:49:15
+EMP-00385,Patricia Vargas,34850586,patricia.vargas385@electrocasa.pe,2348.04,S10,Vendedor,cambio_salario,2026-09-30,2026-10-05 09:39:58
+EMP-00144,Rosa Gutierrez,34289808,rosa.gutierrez144@electrocasa.pe,2324.52,S35,Vendedor,cambio_salario,,2026-09-13 14:55:56
+EMP-01449,Rosa Cordova,40125282,rosa.cordova1449@electrocasa.pe,2481.07,S18,Vendedor,CAMBIO_SALARIO,2026-09-26,2026-09-27 13:55:34
+EMP-00253,Raul Rodriguez,76005819,raul.rodriguez253@electrocasa.pe,1823.35,S04,Vendedor,cambio_salario,2026-10-06,2026-10-08 18:26:30
+EMP-01452,Jorge Mamani,48143957,jorge.mamani1452@electrocasa.pe,1721.48,S13,Vendedor,Transferencia,2026-10-23,2026-10-26 16:29:52
+EMP-00680,Hector Mamani,19885675,hector.mamani680@electrocasa.pe,1907.29,S36,Asesor de ventas,cambio_salario,2026-09-17,2026-09-17 11:32:44
+EMP-00971,Sofia Ramirez,79359897,sofia.ramirez971@electrocasa.pe,2554.79,S25,Encargado de almacen,transferencia,2026-07-25,2026-10-18 09:36:00
+EMP-00688,Jorge Paredes,60971910,jorge.paredes688@electrocasa.pe,1511.09,S38,Vendedor,CAMBIO_SALARIO,2026-10-08,2026-10-09 13:18:31
+EMP-00136,Lucia Alvarez,29955968,lucia.alvarez136@electrocasa.pe,2014.67,S40,Vendedor,CAMBIO_SALARIO,2026-09-07,2026-09-09 12:16:25
+EMP-00800,Daniela Quispe,77663882,daniela.quispe800@electrocasa.pe,1519.07,S15,Vendedor,transferencia,2026-10-29,2026-10-30 12:34:35
+EMP-01142,Carlos Paredes,22814180,carlos.paredes1142@electrocasa.pe,1717.74,S37,Encargado de almacen,TRANSFERENCIA,2026-07-09,2026-10-24 08:02:00
+EMP-00530,Rosa Salazar,59200509,rosa.salazar530@electrocasa.pe,2010.72,S26,Vendedor,cambio_salario,2026-09-12,2026-09-16 09:25:25
+EMP-00325,Lucia Quispe,23444693,lucia.quispe325@electrocasa.pe,1410.48,S28,Cajero,Transferencia,2026-09-23,2026-09-26 18:50:21
+EMP-01337,Luis Mendoza,79873450,luis.mendoza1337@electrocasa.pe,1783.32,S31,Vendedor,cambio_salario,2026-09-15,2026-09-16 15:07:05
+EMP-00511,Fernando Garcia,67066509,fernando.garcia511@electrocasa.pe,1890.08,S28,Cajero,Transferencia,2026-10-04,2026-10-04 14:50:57
+EMP-00725,Gabriela Ccahuana,25613626,gabriela.ccahuana725@electrocasa.pe,1653.93,S23,Cajero,CAMBIO_SALARIO,2026-10-18,2026-10-19 15:09:53
+EMP-00900,Miguel Flores,36465081,miguel.flores900@electrocasa.pe,2022.65,S16,Vendedor,CAMBIO_SALARIO,2026-10-30,2026-11-01 14:52:40
+EMP-00874,Jorge Vargas,78816815,jorge.vargas874@electrocasa.pe,1530.16,S09,Vendedor,transferencia,2026-10-22,2026-10-27 13:34:47
+EMP-01233,Hector Gutierrez,72327529,hector.gutierrez1233@electrocasa.pe,2602.49,S01,Vendedor,baja,2026-10-25,2026-10-25 18:14:52
+EMP-01317,Fernando Huaman,,fernando.huaman1317@electrocasa.pe,1658.34,S21,Asesor de ventas,CAMBIO_SALARIO,2026-10-09,2026-10-14 16:36:39
+EMP-01021,Carmen Castillo,50586491,carmen.castillo1021@electrocasa.pe,4036.58,S16,Supervisor de tienda,cambio_salario,2026-09-15,2026-09-20 10:25:16
+EMP-00615,Gabriela Ccahuana,67018721,gabriela.ccahuana615@electrocasa.pe,1830.11,S30,Asesor de ventas,CAMBIO_SALARIO,2026-09-15,2026-09-15 16:01:51
+EMP-00188,Sofia Chavez,38556537,sofia.chavez188@electrocasa.pe,2248.7,S01,Vendedor,cambio_salario,2026-06-26,2026-10-05 14:17:00
+EMP-01259,Valeria Quispe,63075301,valeria.quispe1259@electrocasa.pe,1934.97,S25,Encargado de almacen,Alta,2026-09-04,2026-09-05 08:18:46
+EMP-01277,Javier Rodriguez,57740116,javier.rodriguez1277@electrocasa.pe,1836.24,S15,Cajero,TRANSFERENCIA,2026-10-18,2026-10-19 17:36:13
+EMP-00486,Ana Vargas,70410875,ana.vargas486@electrocasa.pe,1602.63,S22,Cajero,Transferencia,2026-09-05,2026-09-05 15:34:59
+EMP-00263,Lucia Vargas,64722278,lucia.vargas263@electrocasa.pe,1723.19,S31,Cajero,Transferencia,2026-10-18,2026-10-22 17:13:58
+EMP-00151,Lucia Gutierrez,37014145,lucia.gutierrez151@electrocasa.pe,1621.57,S36,Cajero,transferencia,2026-09-12,2026-09-15 13:11:21
+EMP-00498,Diego Torres,25349006,diego.torres498@electrocasa.pe,1532.29,S18,Vendedor,transferencia,2026-10-03,2026-10-07 11:05:02
+EMP-00785,Raul Garcia,21453977,raul.garcia785@electrocasa.pe,2631.04,S36,Vendedor,cambio_salario,2026-10-19,2026-10-19 11:41:50
+EMP-01104,Carlos Ramirez,40732128,carlos.ramirez1104@electrocasa.pe,1970.41,S25,Asesor de ventas,Cambio Salario,2026-08-31,2026-09-05 12:24:01
+EMP-00099,Hector Rojas,48278148,hector.rojas99@electrocasa.pe,2350.11,S05,Encargado de almacen,baja,2026-10-17,2026-10-21 13:02:37
+EMP-00149,Luis Alvarez,79105837,luis.alvarez149@electrocasa.pe,1926.83,S39,Vendedor,Alta,2026-09-21,2026-09-21 14:51:48
+EMP-00403,Oscar Chavez,42223078,oscar.chavez403@electrocasa.pe,2332.85,S24,Encargado de almacen,Baja,2026-09-03,2026-09-06 11:07:15
+EMP-01349,Carmen Salazar,16132060,carmen.salazar1349@electrocasa.pe,1564.41,S28,Vendedor,Cambio Salario,2026-07-10,2026-10-05 11:53:00
+EMP-00808,Daniela Vargas,62292529,daniela.vargas808@electrocasa.pe,2120.56,S02,Vendedor,cambio_salario,2026-09-20,2026-09-23 12:47:05
+EMP-01191,Valeria Ccahuana,64804694,valeria.ccahuana1191@electrocasa.pe,1863.46,S30,Vendedor,CAMBIO_SALARIO,2026-10-06,2026-10-09 10:59:53
+EMP-01444,Ana Torres,22307445,ana.torres1444@electrocasa.pe,1556.75,S25,Vendedor,Transferencia,2026-09-12,2026-09-15 13:14:32
+EMP-00258,Gabriela Quispe,18585563,gabriela.quispe258@electrocasa.pe,2036.71,S16,Vendedor,CAMBIO_SALARIO,2026-10-19,2026-10-22 12:02:28
+EMP-00074,Miguel Paredes,58191815,miguel.paredes74@electrocasa.pe,2107.26,S08,Vendedor,transferencia,2026-09-14,2026-09-18 15:48:50
+EMP-01221,Ana Alvarez,24610903,ana.alvarez1221@electrocasa.pe,2345.49,S32,Vendedor,BAJA,2026-10-16,2026-10-21 16:02:35
+EMP-00017,Javier Cordova,21120806,javier.cordova17@electrocasa.pe,2514.61,S20,Asesor de ventas,cambio_salario,2026-10-09,2026-10-09 16:18:07
+EMP-00677,Carlos Rodriguez,48723184,carlos.rodriguez677@electrocasa.pe,2074.78,S36,Vendedor,Alta,2026-09-27,2026-09-28 15:14:01
+EMP-00424,Javier Castillo,16787913,javier.castillo424@electrocasa.pe,1714.96,S38,Vendedor,TRANSFERENCIA,,2026-09-24 11:44:48
+EMP-01365,Carlos Chavez,60453822,carlos.chavez1365@electrocasa.pe,2736.7,S17,Vendedor,Cambio Salario,2026-09-07,2026-09-07 09:59:33
+EMP-01104,Carlos Ramirez,40732128,carlos.ramirez1104@electrocasa.pe,1970.41,S25,Asesor de ventas,BAJA,2026-10-13,2026-10-15 11:51:30
+EMP-01213,Patricia Castillo,44608024,patricia.castillo1213@electrocasa.pe,1521.0,S30,Asesor de ventas,transferencia,2026-09-22,2026-09-27 14:14:19
+EMP-00459,Ana Cordova,17770881,ana.cordova459@electrocasa.pe,2550.03,S26,Asesor de ventas,baja,2026-10-31,2026-11-03 13:02:34
+EMP-01234,Ana Ramirez,56537004,ana.ramirez1234@electrocasa.pe,1585.98,S22,Vendedor,CAMBIO_SALARIO,2026-10-02,2026-10-05 10:03:12
+EMP-00520,Patricia Flores,29639793,patricia.flores520@electrocasa.pe,2584.52,S09,Asesor de ventas,Cambio Salario,2026-10-28,2026-10-28 09:15:43
+EMP-01314,Luis Cordova,41638508,luis.cordova1314@electrocasa.pe,1794.02,S23,Asesor de ventas,ALTA,2026-08-29,2026-09-02 13:33:14
+EMP-00045,Milagros Ramirez,47915129,milagros.ramirez45@electrocasa.pe,1875.35,S32,Cajero,ALTA,2026-09-26,2026-09-30 17:55:20
+EMP-00335,Diego Garcia,23801973,diego.garcia335@electrocasa.pe,1370.67,S04,Cajero,Transferencia,2026-10-12,2026-10-15 11:23:14
+EMP-00886,Lucia Castillo,25268127,lucia.castillo886@electrocasa.pe,4556.94,S09,Supervisor de tienda,Transferencia,2026-10-18,2026-10-18 18:23:45
+EMP-00016,Javier Castillo,23947187,javier.castillo16@electrocasa.pe,2281.88,S18,Vendedor,cambio_salario,2026-09-17,2026-09-18 11:00:44
+EMP-00454,Valeria Vargas,11036030,valeria.vargas454@electrocasa.pe,1969.27,S40,Cajero,Cambio Salario,2026-09-07,2026-09-09 14:48:25
+EMP-00268,Diego Gutierrez,59013269,diego.gutierrez268@electrocasa.pe,1227.62,S10,Cajero,baja,2026-10-27,2026-10-29 12:58:09
+EMP-01267,Diego Cordova,47622180,diego.cordova1267@electrocasa.pe,2738.39,S14,Asesor de ventas,transferencia,2026-10-27,2026-10-29 16:01:25
+EMP-00054,Oscar Chavez,,oscar.chavez54@electrocasa.pe,5440.95,S12,Gerente de tienda,Alta,2026-09-24,2026-09-28 10:23:43
+EMP-01427,Raul Salazar,58430218,raul.salazar1427@electrocasa.pe,2267.89,S11,Asesor de ventas,transferencia,2026-10-03,2026-10-07 15:01:09
+EMP-00328,Ricardo Chavez,36200125,ricardo.chavez328@electrocasa.pe,1546.09,S10,Vendedor,transferencia,2026-10-21,2026-10-22 12:17:35
+EMP-00516,Carmen Rodriguez,51208144,carmen.rodriguez516@electrocasa.pe,2425.62,S01,Asesor de ventas,TRANSFERENCIA,2026-09-09,2026-09-14 12:48:45
+EMP-00117,Gabriela Vargas,25654425,gabriela.vargas117@electrocasa.pe,2216.41,S08,Vendedor,CAMBIO_SALARIO,2026-10-26,2026-10-29 13:09:18
+EMP-00342,Lucia Garcia,45044649,lucia.garcia342@electrocasa.pe,2260.71,S27,Encargado de almacen,alta,2026-09-14,2026-09-18 16:20:13
+EMP-00458,Oscar Espinoza,67555573,oscar.espinoza458@electrocasa.pe,1752.99,S09,Vendedor,Cambio Salario,2026-09-11,2026-09-15 13:51:48
+EMP-00668,Hector Huaman,60288644,hector.huaman668@electrocasa.pe,2146.17,S22,Asesor de ventas,CAMBIO_SALARIO,2026-09-05,2026-09-06 10:53:02
+EMP-00054,Oscar Chavez,14462965,oscar.chavez54@electrocasa.pe,6210.52,S12,Gerente de tienda,CAMBIO_SALARIO,2026-10-23,2026-10-28 12:15:50
+EMP-00499,Carlos Vargas,25311672,carlos.vargas499@electrocasa.pe,2343.52,S36,Vendedor,CAMBIO_SALARIO,2026-09-09,2026-09-13 09:57:46
+EMP-01275,Lucia Vargas,16199670,lucia.vargas1275@electrocasa.pe,2196.34,S28,Vendedor,Cambio Salario,2026-09-06,2026-09-10 09:36:50
+EMP-01456,Oscar Chavez,40095300,oscar.chavez1456@electrocasa.pe,1754.66,S24,Asesor de ventas,cambio_salario,2026-09-26,2026-09-30 08:02:41
+EMP-00210,Fernando Ramirez,36959656,fernando.ramirez210@electrocasa.pe,2146.4,S17,Encargado de almacen,Alta,2026-09-17,2026-09-22 12:30:56
+EMP-00206,Carmen Torres,71700399,carmen.torres206@electrocasa.pe,2417.35,S07,Asesor de ventas,baja,2026-10-23,2026-10-26 09:57:48
+EMP-00605,Hector Alvarez,34932632,hector.alvarez605@electrocasa.pe,248533.0,S19,Encargado de almacen,Cambio Salario,2026-09-15,2026-09-15 13:24:14
+EMP-01097,Ricardo Ccahuana,36947951,ricardo.ccahuana1097@electrocasa.pe,2668.37,S12,Encargado de almacen,CAMBIO_SALARIO,2026-09-21,2026-09-21 15:09:09
+EMP-00678,Sofia Mamani,41843713,sofia.mamani678@electrocasa.pe,2153.32,S24,Vendedor,cambio_salario,2026-09-04,2026-09-05 08:45:32
+EMP-01267,Diego Cordova,47622180,diego.cordova1267@electrocasa.pe,2738.39,S30,Asesor de ventas,Cambio Salario,2026-09-19,2026-09-22 14:04:18
+EMP-00416,Javier Ccahuana,57556476,javier.ccahuana416@electrocasa.pe,3122.98,S02,Asesor de ventas,CAMBIO_SALARIO,2026-10-05,2026-10-09 14:21:49
+EMP-01498,Carmen Flores,45222447,carmen.flores1498@electrocasa.pe,2369.25,S25,Asesor de ventas,cambio_salario,2026-10-21,2026-10-24 18:35:45
+EMP-01180,Sofia Gutierrez,77502877,sofia.gutierrez1180@electrocasa.pe,2091.63,S01,Vendedor,Transferencia,2026-10-09,2026-10-12 14:58:50
+EMP-01393,Milagros Alvarez,,milagros.alvarez1393@electrocasa.pe,2711.71,S03,Asesor de ventas,Transferencia,2026-09-20,2026-09-24 13:33:03
+EMP-00291,Jorge Huaman,61012797,jorge.huaman291@electrocasa.pe,1872.38,S37,Vendedor,Transferencia,2026-10-02,2026-10-04 13:54:09
+EMP-01270,Raul Espinoza,34336489,raul.espinoza1270@electrocasa.pe,2429.59,S37,Vendedor,Cambio Salario,2026-10-17,2026-10-17 12:03:57
+EMP-00286,Javier Rojas,24426575,javier.rojas286@electrocasa.pe,1342.47,S06,Vendedor,TRANSFERENCIA,2026-08-24,2026-10-11 11:49:00
+EMP-00646,Karina Garcia,66340509,karina.garcia646@electrocasa.pe,1947.62,S05,Vendedor,Cambio Salario,2026-09-28,2026-09-29 12:50:23
+EMP-00976,Oscar Ccahuana,19578141,oscar.ccahuana976@electrocasa.pe,1802.36,S18,Cajero,Transferencia,2026-09-14,2026-09-16 16:19:20
+EMP-00997,Oscar Mamani,12609559,oscar.mamani997@electrocasa.pe,2557.05,S03,Vendedor,Cambio Salario,2026-09-07,2026-09-10 17:43:01
+EMP-00562,Ana Gutierrez,23987468,ana.gutierrez562@electrocasa.pe,1608.56,S29,Vendedor,cambio_salario,2026-09-11,2026-09-11 09:24:16
+EMP-00506,Valeria Paredes,17221834,valeria.paredes506@electrocasa.pe,2817.86,S07,Asesor de ventas,cambio_salario,2026-09-18,2026-09-18 15:40:43
+EMP-00489,Hector Mamani,23394079,hector.mamani489@electrocasa.pe,1849.42,S34,Vendedor,TRANSFERENCIA,2026-09-23,2026-09-27 18:05:43
+EMP-01498,Carmen Flores,45222447,carmen.flores1498@electrocasa.pe,2272.38,S25,Asesor de ventas,Transferencia,2026-09-03,2026-09-05 16:28:41
+EMP-00840,Lucia Flores,45753733,lucia.flores840@electrocasa.pe,1668.05,S38,Asesor de ventas,transferencia,2026-10-18,2026-10-18 10:26:25
+EMP-01125,Carlos Chavez,70572301,carlos.chavez1125@electrocasa.pe,1599.86,S10,Vendedor,Cambio Salario,2026-10-13,2026-10-15 14:49:05
+EMP-01226,Ana Rodriguez,31977709,ana.rodriguez1226@electrocasa.pe,3503.08,S05,Supervisor de tienda,transferencia,2026-09-17,2026-09-17 18:25:44
+EMP-01060,Daniela Quispe,36866995,daniela.quispe1060@electrocasa.pe,1749.36,S27,Asesor de ventas,CAMBIO_SALARIO,2026-10-25,2026-10-25 14:07:21
+EMP-01375,Karina Rodriguez,10102615,karina.rodriguez1375@electrocasa.pe,7901.13,S31,Gerente de tienda,CAMBIO_SALARIO,2026-09-15,2026-09-18 15:16:03
+EMP-01058,Karina Castillo,38076627,karina.castillo1058@electrocasa.pe,2198.89,S05,Asesor de ventas,Cambio Salario,2026-09-17,2026-09-18 12:12:55
+EMP-00440,Javier Huaman,10603553,javier.huaman440@electrocasa.pe,1956.92,S33,Vendedor,BAJA,2026-09-22,2026-09-23 09:08:06
+EMP-01464,Sofia Ccahuana,60896453,sofia.ccahuana1464@electrocasa.pe,1959.16,S06,Vendedor,Cambio Salario,2026-10-23,2026-10-23 18:14:12
+EMP-00686,Javier Rojas,72116556,javier.rojas686@electrocasa.pe,1507.62,S25,Vendedor,TRANSFERENCIA,2026-10-25,2026-10-26 10:59:38
+EMP-00623,Raul Castillo,50763694,raul.castillo623@electrocasa.pe,1387.32,S37,Cajero,transferencia,2026-10-09,2026-10-11 11:16:40
+EMP-00240,Raul Castillo,35748399,raul.castillo240@electrocasa.pe,2354.08,S22,Vendedor,CAMBIO_SALARIO,2026-09-16,2026-09-19 15:43:54
+EMP-00899,Daniela Garcia,35442519,daniela.garcia899@electrocasa.pe,1689.83,S26,Vendedor,baja,2026-09-19,2026-09-23 08:28:23
+EMP-00267,Gabriela Quispe,22553313,gabriela.quispe267@electrocasa.pe,1668.37,S32,Cajero,TRANSFERENCIA,2026-10-20,2026-10-25 14:46:24
+EMP-00431,Carlos Mamani,79092831,carlos.mamani431@electrocasa.pe,2355.7,S31,Encargado de almacen,TRANSFERENCIA,2026-10-08,2026-10-13 14:40:30
+EMP-01353,Jorge Mendoza,42717050,jorge.mendoza1353@electrocasa.pe,4597.68,S40,Supervisor de tienda,cambio_salario,2026-09-05,2026-09-08 14:21:27
+EMP-01020,Milagros Flores,76818176,milagros.flores1020@electrocasa.pe,2002.16,S34,Cajero,Cambio Salario,2026-10-02,2026-10-04 14:38:39
+EMP-00393,Lucia Vargas,49543458,lucia.vargas393@electrocasa.pe,2232.32,S02,Vendedor,Cambio Salario,2026-09-09,2026-09-12 15:57:47
+EMP-00689,Sofia Flores,50519298,sofia.flores689@electrocasa.pe,1812.68,S17,Vendedor,TRANSFERENCIA,2026-10-09,2026-10-13 18:56:35
+EMP-01158,Gabriela Vargas,10875634,gabriela.vargas1158@electrocasa.pe,2005.09,S36,Vendedor,TRANSFERENCIA,2026-10-20,2026-10-25 08:34:10
+EMP-00387,Diego Castillo,57991088,diego.castillo387@electrocasa.pe,2432.11,S36,Asesor de ventas,CAMBIO_SALARIO,2026-10-28,2026-10-29 14:31:17
+EMP-01422,Milagros Chavez,68605439,milagros.chavez1422@electrocasa.pe,2968.78,S28,Encargado de almacen,Cambio Salario,2026-09-28,2026-09-29 11:13:42
+EMP-00399,Oscar Mamani,51478717,oscar.mamani399@electrocasa.pe,2201.86,S18,Vendedor,baja,2026-10-28,2026-10-28 10:32:48
+EMP-01295,Oscar Rojas,77240140,oscar.rojas1295@electrocasa.pe,2395.62,S26,Vendedor,CAMBIO_SALARIO,2026-09-10,2026-09-13 16:55:41
+EMP-01412,Rosa Quispe,19877122,rosa.quispe1412@electrocasa.pe,2098.18,S38,Asesor de ventas,transferencia,2026-09-27,2026-09-28 17:39:32
+EMP-00223,Luis Rojas,16465742,luis.rojas223@electrocasa.pe,2448.54,S24,Vendedor,baja,2026-09-12,2026-09-17 09:31:39
+EMP-01468,Patricia Mendoza,64345168,patricia.mendoza1468@electrocasa.pe,2190.57,S31,Asesor de ventas,cese,2026-09-30,2026-10-02 18:57:27
+EMP-00080,Jorge Paredes,49535729,jorge.paredes80@electrocasa.pe,2077.59,S06,Encargado de almacen,cambio_salario,2026-10-29,2026-10-31 11:26:49
+EMP-01448,Javier Salazar,66752574,javier.salazar1448@electrocasa.pe,2923.97,S13,Supervisor de tienda,Alta,2026-09-11,2026-09-16 15:51:09
+EMP-01289,Hector Ramirez,38521962,hector.ramirez1289@electrocasa.pe,7745.22,S22,Gerente de tienda,cambio_salario,2026-10-04,2026-10-06 16:26:23
+EMP-00162,Ana Torres,30405170,ana.torres162@electrocasa.pe,3706.17,S26,Supervisor de tienda,BAJA,2026-09-08,2026-09-12 13:18:16
+EMP-01480,Patricia Quispe,22392568,patricia.quispe1480@electrocasa.pe,8426.47,S35,Gerente de tienda,TRANSFERENCIA,2026-08-15,2026-10-11 17:26:00
+EMP-00608,Daniela Alvarez,18196041,daniela.alvarez608@electrocasa.pe,1606.2,S31,Vendedor,Transferencia,2026-09-20,2026-09-20 15:06:33
+EMP-00479,Miguel Mamani,34334043,miguel.mamani479@electrocasa.pe,1719.13,S38,Vendedor,cambio_salario,2026-09-14,2026-09-17 17:22:45
+EMP-00741,Javier Chavez,24222700,javier.chavez741@electrocasa.pe,1479.72,S35,Cajero,BAJA,2026-10-13,2026-10-14 13:45:19
+EMP-01375,Karina Rodriguez,10102615,karina.rodriguez1375@electrocasa.pe,8287.94,S31,Gerente de tienda,Cambio Salario,2026-10-20,2026-10-22 08:26:07
+EMP-00972,Rosa Garcia,78095876,rosa.garcia972@electrocasa.pe,1488.59,S31,Vendedor,Transferencia,2026-10-09,2026-10-09 17:04:20
+EMP-00301,Jorge Garcia,54596565,jorge.garcia301@electrocasa.pe,2288.14,S27,Vendedor,Cambio Salario,2026-09-25,2026-09-29 17:22:53
+EMP-00596,Daniela Espinoza,73134106,daniela.espinoza596@electrocasa.pe,2141.05,S40,Vendedor,transferencia,2026-09-25,2026-09-28 11:08:29
+EMP-01418,Miguel Mendoza,20019178,miguel.mendoza1418@electrocasa.pe,2572.86,S24,Asesor de ventas,CAMBIO_SALARIO,2026-09-28,2026-09-28 08:28:56
+EMP-00004,Daniela Gutierrez,48867538,daniela.gutierrez4@electrocasa.pe,1532.42,S19,Vendedor,Transferencia,2026-10-28,2026-10-29 12:16:17
+EMP-01485,Daniela Huaman,25266351,daniela.huaman1485@electrocasa.pe,2082.4,S38,Vendedor,Baja,2026-10-06,2026-10-08 12:09:12
+EMP-01083,Sofia Huaman,75623683,sofia.huaman1083@electrocasa.pe,2577.51,S40,Vendedor,CAMBIO_SALARIO,2026-09-25,2026-09-27 16:24:38
+EMP-00414,Oscar Salazar,77316606,oscar.salazar414@electrocasa.pe,1715.67,S28,Vendedor,Alta,2026-09-26,2026-09-29 12:48:15
+EMP-00014,Diego Quispe,58384661,diego.quispe14@electrocasa.pe,2971.31,S03,Supervisor de tienda,alta,2026-09-25,2026-09-30 10:39:43
+EMP-00885,Valeria Quispe,73580412,valeria.quispe885@electrocasa.pe,2009.76,S34,Vendedor,cambio_salario,2026-10-21,2026-10-25 12:07:32
+EMP-00773,Lucia Vargas,56782190,lucia.vargas773@electrocasa.pe,2496.6,S05,Encargado de almacen,transferencia,2026-09-08,2026-09-10 13:08:45
+EMP-00433,Daniela Rodriguez,53888737,daniela.rodriguez433@electrocasa.pe,1936.58,S39,Vendedor,Cambio Salario,2026-10-09,2026-10-14 15:10:42
+EMP-00215,Oscar Espinoza,34999316,oscar.espinoza215@electrocasa.pe,2295.17,S35,Vendedor,CAMBIO_SALARIO,2026-10-31,2026-11-03 12:50:13
+EMP-01035,Patricia Ramirez,62651217,patricia.ramirez1035@electrocasa.pe,1886.19,S13,Asesor de ventas,CAMBIO_SALARIO,2026-10-03,2026-10-03 09:10:22
+EMP-00961,Valeria Chavez,27952305,valeria.chavez961@electrocasa.pe,2480.56,S26,Vendedor,cambio_salario,2026-09-10,2026-09-12 09:16:08
+EMP-00249,Jorge Mamani,37651066,jorge.mamani249@electrocasa.pe,2611.24,S12,Asesor de ventas,Transferencia,2026-10-06,2026-10-07 17:21:23
+EMP-00254,Jorge Espinoza,47339155,jorge.espinoza254@electrocasa.pe,1835.9,S05,Asesor de ventas,ALTA,2026-09-20,2026-09-22 08:17:23
+EMP-00074,Miguel Paredes,58191815,miguel.paredes74@electrocasa.pe,2107.26,S27,Vendedor,transferencia,2026-10-13,2026-10-13 11:27:45
+EMP-01437,Daniela Cordova,61066819,daniela.cordova1437@electrocasa.pe,2405.54,S35,Encargado de almacen,baja,2026-09-06,2026-09-07 18:23:10
+EMP-01252,Patricia Garcia,76080278,patricia.garcia1252@electrocasa.pe,2178.08,S15,Asesor de ventas,cambio_salario,2026-09-27,2026-09-27 13:09:29
+EMP-00703,Gabriela Mendoza,64638079,gabriela.mendoza703@electrocasa.pe,4500.29,S17,Supervisor de tienda,cambio_salario,2026-10-11,2026-10-13 08:29:27
+EMP-00121,Jorge Castillo,53598296,jorge.castillo121@electrocasa.pe,2029.08,S05,Asesor de ventas,Cambio Salario,2026-09-22,2026-09-26 15:29:14
+EMP-00926,Javier Chavez,35403333,javier.chavez926@electrocasa.pe,1514.68,S39,Vendedor,BAJA,2026-10-25,2026-10-25 18:59:11
+EMP-01028,Karina Huaman,60412660,karina.huaman1028@electrocasa.pe,2742.52,S19,Asesor de ventas,Baja,2026-09-18,2026-09-21 16:21:36
+EMP-00774,Javier Chavez,30542910,javier.chavez774@electrocasa.pe,1375.23,S16,Cajero,cambio_salario,2026-09-18,2026-09-18 08:14:26
+EMP-01246,Miguel Ramirez,36441540,miguel.ramirez1246@electrocasa.pe,1502.35,S26,Vendedor,CAMBIO_SALARIO,2026-10-18,2026-10-19 13:44:58
+EMP-01141,Patricia Mamani,66556175,patricia.mamani1141@electrocasa.pe,1569.24,S10,Vendedor,BAJA,2026-09-06,2026-09-11 13:00:20
+EMP-00308,Miguel Rojas,,miguel.rojas308@electrocasa.pe,1792.55,S15,Vendedor,transferencia,2026-10-11,2026-10-13 08:06:48
+EMP-00962,Carlos Mamani,48105374,carlos.mamani962@electrocasa.pe,1924.37,S02,Asesor de ventas,alta,2026-09-03,2026-09-07 08:14:58
+EMP-01318,Milagros Vargas,50017621,milagros.vargas1318@electrocasa.pe,1999.05,S17,Vendedor,transferencia,2026-08-03,2026-10-16 13:44:00
+EMP-00565,Gabriela Salazar,18721900,gabriela.salazar565@electrocasa.pe,2771.77,S10,Asesor de ventas,Cambio Salario,2026-09-23,2026-09-24 18:37:40
+EMP-00551,Oscar Flores,22382964,oscar.flores551@electrocasa.pe,2309.86,S40,Asesor de ventas,transferencia,2026-10-30,2026-10-30 10:42:22
+EMP-01352,Lucia Garcia,11596685,lucia.garcia1352@electrocasa.pe,1963.03,S38,Cajero,cambio_salario,2026-09-06,2026-09-07 10:15:57
+EMP-00482,Hector Gutierrez,35145747,hector.gutierrez482@electrocasa.pe,1990.4,S17,Encargado de almacen,CAMBIO_SALARIO,2026-09-30,2026-09-30 13:29:36
+EMP-00660,Sofia Cordova,64989404,sofia.cordova660@electrocasa.pe,2297.82,S20,Vendedor,BAJA,2026-09-24,2026-09-27 09:38:37
+EMP-00333,Raul Paredes,77936919,raul.paredes333@electrocasa.pe,2010.72,S34,Encargado de almacen,Baja,2026-06-15,2026-10-03 17:03:00
+EMP-00414,Oscar Salazar,77316606,oscar.salazar414@electrocasa.pe,1865.67,S28,Vendedor,cambio_salario,2026-09-26,2026-09-29 14:50:15
+EMP-00490,Luis Alvarez,34654095,luis.alvarez490@electrocasa.pe,2411.55,S10,Vendedor,CAMBIO_SALARIO,2026-10-27,2026-11-01 08:23:58
+EMP-01049,Patricia Flores,13163164,patricia.flores1049@electrocasa.pe,1612.82,S33,Vendedor,transferencia,2026-10-31,2026-11-02 18:05:09
+EMP-00539,Jorge Quispe,59210606,jorge.quispe539@electrocasa.pe,2322.45,S21,Asesor de ventas,Cambio Salario,2026-10-15,2026-10-15 16:27:54
+EMP-00768,Rosa Ramirez,46404112,rosa.ramirez768@electrocasa.pe,2462.36,S18,Vendedor,CAMBIO_SALARIO,2026-09-03,2026-09-03 13:05:33
+EMP-00048,Milagros Mendoza,30138662,milagros.mendoza48@electrocasa.pe,1704.99,S18,Vendedor,CAMBIO_SALARIO,2026-09-07,2026-09-09 18:02:36
+EMP-00189,Daniela Torres,52052908,daniela.torres189@electrocasa.pe,2572.25,S25,Encargado de almacen,alta,2026-09-21,2026-09-22 15:22:10
+EMP-01225,Karina Mendoza,51890784,karina.mendoza1225@electrocasa.pe,2036.58,S17,Cajero,Cambio Salario,2026-07-15,2026-10-26 10:06:00
+EMP-00566,Gabriela Castillo,71465047,gabriela.castillo566@electrocasa.pe,1529.63,S38,Asesor de ventas,transferencia,2026-06-26,2026-10-07 08:41:00
+EMP-01329,Rosa Chavez,29895083,rosa.chavez1329@electrocasa.pe,1861.52,S26,Vendedor,cambio_salario,2026-09-03,2026-09-06 09:23:19
+EMP-00232,Jorge Rojas,11986652,jorge.rojas232@electrocasa.pe,3961.13,S07,Supervisor de tienda,CAMBIO_SALARIO,2026-10-14,2026-10-15 18:02:26
+EMP-00524,Jorge Salazar,51443097,jorge.salazar524@electrocasa.pe,2683.65,S07,Vendedor,Cambio Salario,2026-09-12,2026-09-12 17:55:35
+EMP-01117,Oscar Huaman,34073158,oscar.huaman1117@electrocasa.pe,1450.67,S02,Cajero,Transferencia,2026-09-06,2026-09-11 13:44:16
+EMP-01248,Patricia Paredes,74762327,patricia.paredes1248@electrocasa.pe,1998.62,S15,Cajero,cambio_salario,2026-09-28,2026-10-01 13:35:24
+EMP-00311,Gabriela Cordova,40281325,gabriela.cordova311@electrocasa.pe,1797.09,S39,Vendedor,Cambio Salario,2026-10-26,2026-10-26 13:17:34
+EMP-00034,Ana Quispe,56141170,ana.quispe34@electrocasa.pe,2071.93,S13,Encargado de almacen,cambio_salario,2026-10-09,2026-10-13 11:48:22
+EMP-01445,Gabriela Chavez,73718931,gabriela.chavez1445@electrocasa.pe,10331.59,S10,Gerente de tienda,Cambio Salario,2026-09-09,2026-09-09 08:27:48
+EMP-00694,Luis Garcia,10344680,luis.garcia694@electrocasa.pe,1712.7,S24,Vendedor,TRANSFERENCIA,2026-09-21,2026-09-24 17:20:51
+EMP-00969,Karina Mendoza,39287987,karina.mendoza969@electrocasa.pe,2023.56,S07,Asesor de ventas,Transferencia,2026-09-09,2026-09-09 10:09:45
+EMP-00415,Milagros Mamani,72979484,milagros.mamani415@electrocasa.pe,3728.17,S21,Supervisor de tienda,Transferencia,2026-09-30,2026-10-01 16:49:03
+EMP-00350,Oscar Rojas,76061464,oscar.rojas350@electrocasa.pe,2309.69,S17,Vendedor,cambio_salario,2026-09-25,2026-09-29 14:28:43
+EMP-00418,Ana Espinoza,67507711,ana.espinoza418@electrocasa.pe,2599.55,S36,Vendedor,transferencia,2026-08-30,2026-09-03 08:09:12
+EMP-00990,Sofia Mamani,71834336,sofia.mamani990@electrocasa.pe,2105.9,S34,Encargado de almacen,Baja,2026-09-19,2026-09-23 16:59:36
+EMP-01136,Javier Flores,53073395,javier.flores1136@electrocasa.pe,2368.67,S13,Cajero,CAMBIO_SALARIO,2026-10-06,2026-10-08 10:10:09
+EMP-00726,Lucia Paredes,43611898,lucia.paredes726@electrocasa.pe,1755.73,S16,Vendedor,cambio_salario,2026-09-26,2026-09-28 14:57:28
+EMP-01319,Diego Castillo,72499684,diego.castillo1319@electrocasa.pe,1746.66,S17,Cajero,CAMBIO_SALARIO,2026-10-11,2026-10-14 14:47:59
+EMP-01011,Oscar Cordova,66222606,oscar.cordova1011@electrocasa.pe,1510.83,S36,Vendedor,Cambio Salario,2026-10-03,2026-10-04 18:19:28
+EMP-00039,Javier Alvarez,52949120,javier.alvarez39@electrocasa.pe,2317.8,S11,Vendedor,Cambio Salario,2026-06-10,2026-10-09 17:10:00
+EMP-00497,Hector Quispe,46897469,hector.quispe497@electrocasa.pe,2069.26,S22,Encargado de almacen,CAMBIO_SALARIO,2026-10-05,2026-10-05 11:29:35
+EMP-01263,Daniela Paredes,52072579,daniela.paredes1263@electrocasa.pe,1684.91,S23,Asesor de ventas,transferencia,2026-09-15,2026-09-15 11:17:33
+EMP-01272,Hector Rodriguez,61648542,hector.rodriguez1272@electrocasa.pe,3582.54,S39,Supervisor de tienda,Cambio Salario,2026-10-18,2026-10-21 11:54:02
+EMP-00394,Raul Mendoza,38801238,raul.mendoza394@electrocasa.pe,2498.99,S10,Asesor de ventas,cambio_salario,2026-09-24,2026-09-24 08:30:05
+EMP-01242,Milagros Ccahuana,45995768,milagros.ccahuana1242@electrocasa.pe,2491.84,S29,Asesor de ventas,cambio_salario,2026-09-15,2026-09-15 14:58:28
+EMP-00809,Carmen Ccahuana,77421517,carmen.ccahuana809@electrocasa.pe,8944.75,S22,Gerente de tienda,Cambio Salario,2026-09-10,2026-09-14 09:51:52
+EMP-00013,Lucia Chavez,21223719,lucia.chavez13@electrocasa.pe,1877.25,S33,Vendedor,CAMBIO_SALARIO,2026-10-01,2026-10-03 11:11:05
+EMP-00017,Javier Cordova,21120806,javier.cordova17@electrocasa.pe,2341.36,S20,Asesor de ventas,TRANSFERENCIA,2026-07-21,2026-10-12 14:03:00
+EMP-01282,Fernando Quispe,51739191,fernando.quispe1282@electrocasa.pe,2343.47,S26,Asesor de ventas,TRANSFERENCIA,2026-09-25,2026-09-28 14:52:19
+EMP-00624,Javier Castillo,72206276,javier.castillo624@electrocasa.pe,5218.65,S01,Supervisor de tienda,CAMBIO_SALARIO,2026-10-21,2026-10-22 11:31:42
+EMP-00570,Carlos Torres,61836060,carlos.torres570@electrocasa.pe,2492.49,S17,Vendedor,TRANSFERENCIA,2026-09-07,2026-09-12 18:57:05
+EMP-01171,Daniela Rodriguez,60258650,daniela.rodriguez1171@electrocasa.pe,2117.76,S13,Cajero,CAMBIO_SALARIO,2026-10-18,2026-10-18 10:04:06
+EMP-00293,Fernando Garcia,68740047,fernando.garcia293@electrocasa.pe,2646.47,S38,Encargado de almacen,cese,2026-08-31,2026-09-03 15:15:48
+EMP-00831,Fernando Espinoza,60685323,fernando.espinoza831@electrocasa.pe,2173.33,S23,Vendedor,Alta,2026-09-29,2026-09-30 16:53:07
+EMP-00598,Javier Paredes,10973787,javier.paredes598@electrocasa.pe,2251.84,S17,Asesor de ventas,Baja,2026-10-10,2026-10-10 10:15:36
+EMP-01453,Milagros Vargas,25732934,milagros.vargas1453@electrocasa.pe,2041.83,S34,Vendedor,cambio_salario,2026-09-03,2026-09-06 11:06:31
+EMP-00748,Ricardo Mamani,59407681,ricardo.mamani748@electrocasa.pe,1711.7,S38,Asesor de ventas,transferencia,2026-10-04,2026-10-07 14:24:16
+EMP-00903,Milagros Gutierrez,31286885,milagros.gutierrez903@electrocasa.pe,1743.24,S06,Asesor de ventas,Transferencia,2026-09-04,2026-09-05 14:34:57
+EMP-00409,Oscar Espinoza,15263656,oscar.espinoza409@electrocasa.pe,3548.23,S15,Encargado de almacen,cambio_salario,2026-09-06,2026-09-06 10:04:46
+EMP-00084,Valeria Mendoza,14065799,valeria.mendoza84@electrocasa.pe,2677.6,S16,Asesor de ventas,Cambio Salario,2026-09-08,2026-09-11 08:00:31
+EMP-01378,Hector Mendoza,17198355,hector.mendoza1378@electrocasa.pe,1979.03,S38,Vendedor,TRANSFERENCIA,2026-09-18,2026-09-21 17:07:24
+EMP-01265,Gabriela Rodriguez,42889610,gabriela.rodriguez1265@electrocasa.pe,2152.02,S17,Asesor de ventas,transferencia,2026-09-20,2026-09-25 09:18:37
+EMP-00770,Patricia Ccahuana,77379087,patricia.ccahuana770@electrocasa.pe,5239.82,S31,Supervisor de tienda,CAMBIO_SALARIO,2026-10-19,2026-10-19 08:18:07
+EMP-00447,Oscar Mamani,65848091,oscar.mamani447@electrocasa.pe,2056.07,S09,Cajero,TRANSFERENCIA,2026-10-12,2026-10-14 13:28:14
+EMP-01036,Gabriela Chavez,78394790,gabriela.chavez1036@electrocasa.pe,3793.48,S03,Supervisor de tienda,cambio_salario,2026-10-06,2026-10-07 13:27:37
+EMP-00681,Hector Castillo,36339293,hector.castillo681@electrocasa.pe,2564.09,S23,Encargado de almacen,cambio_salario,2026-10-21,2026-10-25 17:04:01
+EMP-01472,Karina Garcia,32751508,karina.garcia1472@electrocasa.pe,2108.71,S04,Vendedor,CAMBIO_SALARIO,2026-10-15,2026-10-17 08:17:55
+EMP-00371,Gabriela Rojas,13944202,gabriela.rojas371@electrocasa.pe,2198.16,S14,Asesor de ventas,Transferencia,2026-10-10,2026-10-11 13:56:35
+EMP-01131,Carmen Flores,17268326,carmen.flores1131@electrocasa.pe,2104.83,S39,Asesor de ventas,cambio_salario,2026-10-18,2026-10-18 15:15:23
+EMP-00055,Jorge Mendoza,49978644,jorge.mendoza55@electrocasa.pe,1617.42,S26,Vendedor,baja,2026-09-10,2026-09-13 13:45:04
+EMP-00405,Lucia Vargas,73095824,lucia.vargas405@electrocasa.pe,2270.9,S06,Asesor de ventas,cambio_salario,2026-09-19,2026-09-20 14:45:55
+EMP-01379,Diego Mamani,70772403,diego.mamani1379@electrocasa.pe,2745.52,S11,Asesor de ventas,cambio_salario,2026-10-17,2026-10-17 16:30:39
+EMP-01250,Luis Mamani,60262856,luis.mamani1250@electrocasa.pe,1342.14,S24,Cajero,transferencia,2026-09-16,2026-09-21 10:37:29
+EMP-01347,Carmen Chavez,61938156,carmen.chavez1347@electrocasa.pe,8296.63,S10,Gerente de tienda,Baja,2026-10-14,2026-10-15 14:04:46
+EMP-00775,Oscar Huaman,61234911,oscar.huaman775@electrocasa.pe,2839.26,S04,Asesor de ventas,Cambio Salario,2026-09-16,2026-09-20 08:25:54
+EMP-01288,Milagros Mamani,59765936,milagros.mamani1288@electrocasa.pe,1869.33,S18,Cajero,TRANSFERENCIA,2026-10-10,2026-10-15 15:23:37
+EMP-01017,Daniela Alvarez,49429003,daniela.alvarez1017@electrocasa.pe,1997.04,S21,Vendedor,Transferencia,2026-09-07,2026-09-08 15:03:19
+EMP-01274,Diego Castillo,57327174,diego.castillo1274@electrocasa.pe,2209.31,S26,Vendedor,Cambio Salario,2026-09-12,2026-09-17 11:19:46
+EMP-00611,Rosa Rojas,21546310,rosa.rojas611@electrocasa.pe,2096.48,S32,Vendedor,Cambio Salario,2026-10-26,2026-10-29 10:53:13
+EMP-01218,Karina Ramirez,15582571,karina.ramirez1218@electrocasa.pe,2205.41,S24,Cajero,baja,2026-09-08,2026-09-08 10:40:47
+EMP-01240,Javier Quispe,64673077,javier.quispe1240@electrocasa.pe,2020.62,S29,Vendedor,TRANSFERENCIA,2026-10-22,2026-10-26 15:20:27
+EMP-00813,Fernando Castillo,44419670,fernando.castillo813@electrocasa.pe,1715.63,S30,Cajero,CAMBIO_SALARIO,2026-08-07,2026-10-16 11:34:00
+EMP-01034,Milagros Cordova,26980272,milagros.cordova1034@electrocasa.pe,1837.14,S20,Vendedor,Transferencia,2026-10-13,2026-10-14 11:27:57
+EMP-00851,Diego Paredes,78818917,diego.paredes851@electrocasa.pe,2724.86,S04,Encargado de almacen,TRANSFERENCIA,2026-09-24,2026-09-26 10:04:40
+EMP-00984,Patricia Gutierrez,62745077,patricia.gutierrez984@electrocasa.pe,1625.4,S08,Vendedor,BAJA,2026-10-24,2026-10-28 18:57:50
+EMP-00494,Lucia Rodriguez,32396642,lucia.rodriguez494@electrocasa.pe,1466.33,S33,Vendedor,Baja,2026-10-14,2026-10-18 09:10:48
+EMP-00845,Luis Huaman,47754765,luis.huaman845@electrocasa.pe,3266.05,S15,Encargado de almacen,Cambio Salario,2026-10-16,2026-10-21 10:33:22
+EMP-01489,Gabriela Vargas,14374145,gabriela.vargas1489@electrocasa.pe,1930.73,S32,Vendedor,Cambio Salario,2026-10-09,2026-10-13 09:42:32
+EMP-00969,Karina Mendoza,39287987,karina.mendoza969@electrocasa.pe,2135.25,S07,Asesor de ventas,Cambio Salario,2026-10-28,2026-10-29 12:22:49
+EMP-00794,Ricardo Garcia,15570922,ricardo.garcia794@electrocasa.pe,2127.34,S14,Vendedor,transferencia,2026-09-15,2026-09-19 13:22:32
+EMP-00178,Rosa Castillo,67942704,rosa.castillo178@electrocasa.pe,2471.48,S16,Asesor de ventas,Alta,2026-09-06,2026-09-10 16:58:55
+EMP-00363,Miguel Mendoza,63262498,miguel.mendoza363@electrocasa.pe,2597.33,S09,Asesor de ventas,Alta,2026-09-28,2026-09-30 16:00:41
+EMP-00283,Hector Gutierrez,61461942,hector.gutierrez283@electrocasa.pe,2697.7,S27,Encargado de almacen,CAMBIO_SALARIO,2026-09-01,2026-09-01 18:20:18
+EMP-00012,Hector Huaman,10950213,hector.huaman12@electrocasa.pe,1556.18,S08,Vendedor,BAJA,2026-09-16,2026-09-16 18:03:39
+EMP-00866,Sofia Huaman,46092794,sofia.huaman866@electrocasa.pe,1824.43,S28,Cajero,TRANSFERENCIA,2026-09-20,2026-09-20 17:43:42
+EMP-01407,Javier Rojas,70043772,javier.rojas1407@electrocasa.pe,1630.98,S03,Vendedor,Cambio Salario,2026-10-11,2026-10-15 12:32:47
+EMP-00909,Carlos Salazar,35277017,carlos.salazar909@electrocasa.pe,2936.58,S04,Encargado de almacen,Cambio Salario,2026-09-22,2026-09-24 11:12:36
+EMP-01367,Oscar Mamani,28634062,oscar.mamani1367@electrocasa.pe,1329.28,S24,Cajero,Cambio Salario,2026-10-24,2026-10-28 10:00:12
+EMP-00022,Sofia Rodriguez,50241187,sofia.rodriguez22@electrocasa.pe,4150.02,S15,Supervisor de tienda,cambio_salario,2026-10-26,2026-10-29 16:08:10
+EMP-00485,Patricia Chavez,50391058,patricia.chavez485@electrocasa.pe,1217.55,S38,Cajero,alta,2026-09-10,2026-09-12 17:32:27
+EMP-00599,Daniela Mamani,33763458,daniela.mamani599@electrocasa.pe,1693.09,S10,Vendedor,Cambio Salario,2026-09-09,2026-09-09 16:52:04
+EMP-00979,Milagros Cordova,40224588,milagros.cordova979@electrocasa.pe,2193.64,S39,Asesor de ventas,alta,2026-09-10,2026-09-10 16:27:19
+EMP-00867,Valeria Gutierrez,62661603,valeria.gutierrez867@electrocasa.pe,2539.8,S12,Asesor de ventas,cambio_salario,2026-10-29,2026-10-31 12:43:00
+EMP-00777,Ricardo Gutierrez,36028035,ricardo.gutierrez777@electrocasa.pe,2455.59,S31,Asesor de ventas,Transferencia,2026-10-19,2026-10-23 15:05:22
+EMP-00296,Rosa Mamani,33842401,rosa.mamani296@electrocasa.pe,7339.11,S38,Gerente de tienda,cambio_salario,2026-09-02,2026-09-05 18:14:46
+EMP-01197,Fernando Huaman,50205857,fernando.huaman1197@electrocasa.pe,2781.08,S12,Asesor de ventas,cambio_salario,2026-10-02,2026-10-06 13:27:16
+EMP-01204,Jorge Espinoza,36564333,jorge.espinoza1204@electrocasa.pe,2302.15,S28,Vendedor,Cambio Salario,2026-09-28,2026-10-01 15:22:29
+EMP-01499,Patricia Mendoza,48495343,patricia.mendoza1499@electrocasa.pe,1872.06,S15,Asesor de ventas,baja,2026-09-15,2026-09-17 15:33:24
+EMP-00362,Milagros Rojas,20112103,milagros.rojas362@electrocasa.pe,3684.32,S13,Supervisor de tienda,transferencia,2026-08-31,2026-09-05 16:16:58
+EMP-01355,Ana Vargas,25468902,ana.vargas1355@electrocasa.pe,4630.92,S19,Supervisor de tienda,cambio_salario,2026-07-18,2026-10-06 08:11:00
+EMP-01296,Carmen Ccahuana,20717169,carmen.ccahuana1296@electrocasa.pe,2304.86,S04,Vendedor,CAMBIO_SALARIO,2026-09-15,2026-09-16 14:52:23
+EMP-01240,Javier Quispe,64673077,javier.quispe1240@electrocasa.pe,2020.62,S28,Vendedor,alta,2026-09-14,2026-09-14 09:12:57
+EMP-00787,Lucia Quispe,50740826,lucia.quispe787@electrocasa.pe,1839.4,S07,Vendedor,CAMBIO_SALARIO,2026-10-13,2026-10-14 11:47:23
+EMP-00096,Miguel Gutierrez,25304467,miguel.gutierrez96@electrocasa.pe,1552.85,S29,Vendedor,Cambio Salario,2026-10-21,2026-10-23 12:56:56
+EMP-01009,Fernando Gutierrez,58479982,fernando.gutierrez1009@electrocasa.pe,1762.64,S29,Cajero,cambio_salario,2026-10-02,2026-10-02 09:25:46
+EMP-01257,Javier Salazar,23184990,javier.salazar1257@electrocasa.pe,2499.93,S03,Vendedor,CAMBIO_SALARIO,2026-09-14,2026-09-16 08:01:16
+EMP-00800,Daniela Quispe,77663882,daniela.quispe800@electrocasa.pe,1519.07,S03,Vendedor,alta,2026-09-23,2026-09-28 08:36:01
+EMP-01478,Carmen Quispe,46628409,carmen.quispe1478@electrocasa.pe,2619.8,S09,Asesor de ventas,baja,2026-10-28,2026-11-01 11:38:21
+EMP-01150,Daniela Quispe,74394349,daniela.quispe1150@electrocasa.pe,1792.41,S29,Asesor de ventas,Cambio Salario,2026-10-13,2026-10-18 13:29:25
+EMP-01424,Lucia Ccahuana,52859695,lucia.ccahuana1424@electrocasa.pe,2411.3,S05,Asesor de ventas,Cambio Salario,2026-09-03,2026-09-03 10:11:22
+EMP-00340,Patricia Espinoza,14355499,patricia.espinoza340@electrocasa.pe,2533.82,S04,Asesor de ventas,cambio_salario,2026-10-14,2026-10-19 14:30:37
+EMP-00310,Oscar Salazar,29733818,oscar.salazar310@electrocasa.pe,1940.95,S05,Vendedor,cambio_salario,2026-08-31,2026-09-04 11:23:30
+EMP-00704,Raul Cordova,33543223,raul.cordova704@electrocasa.pe,1597.67,S31,Vendedor,BAJA,2026-09-16,2026-09-17 17:08:04
+EMP-01311,Valeria Huaman,42864037,valeria.huaman1311@electrocasa.pe,1791.55,S26,Vendedor,cese,2026-10-24,2026-10-26 08:36:14
+EMP-00537,Carlos Paredes,77418633,carlos.paredes537@electrocasa.pe,2557.16,S08,Asesor de ventas,TRANSFERENCIA,2026-09-30,2026-09-30 18:06:42
+EMP-01386,Raul Vargas,31823387,raul.vargas1386@electrocasa.pe,1611.06,S12,Vendedor,transferencia,2026-10-16,2026-10-21 13:14:08
+EMP-00926,Javier Chavez,35403333,javier.chavez926@electrocasa.pe,1514.68,S39,Vendedor,transferencia,2026-09-24,2026-09-24 17:23:15
+EMP-00459,Ana Cordova,17770881,ana.cordova459@electrocasa.pe,2550.03,S26,Asesor de ventas,CAMBIO_SALARIO,2026-09-09,2026-09-10 17:03:40
+EMP-01363,Carmen Rojas,40780253,carmen.rojas1363@electrocasa.pe,2648.72,S18,Vendedor,cambio_salario,2026-09-18,2026-09-21 08:30:42
+EMP-00166,Raul Castillo,38318392,raul.castillo166@electrocasa.pe,3326.45,S03,Supervisor de tienda,Transferencia,2026-10-16,2026-10-21 15:49:19
+EMP-01352,Lucia Garcia,11596685,lucia.garcia1352@electrocasa.pe,2070.24,S38,Cajero,CAMBIO_SALARIO,2026-10-20,2026-10-25 10:15:36
+EMP-00374,Fernando Ccahuana,72472175,fernando.ccahuana374@electrocasa.pe,2310.51,S29,Encargado de almacen,baja,2026-09-09,2026-09-11 11:18:37
+EMP-00557,Javier Garcia,28147179,javier.garcia557@electrocasa.pe,1788.99,S16,Cajero,cambio_salario,2026-09-01,2026-09-06 09:38:29
+EMP-00846,Daniela Rojas,78910200,daniela.rojas846@electrocasa.pe,10386.99,S10,Gerente de tienda,Cambio Salario,2026-08-31,2026-09-03 17:30:34
+EMP-01292,Raul Quispe,21398708,raul.quispe1292@electrocasa.pe,2321.34,S13,Asesor de ventas,cambio_salario,2026-10-10,2026-10-14 16:51:30
+EMP-01297,Ana Espinoza,60342532,ana.espinoza1297@electrocasa.pe,2243.85,S20,Vendedor,Cambio Salario,2026-09-05,2026-09-07 14:08:12
+EMP-00997,Oscar Mamani,12609559,oscar.mamani997@electrocasa.pe,2557.05,S26,Vendedor,transferencia,2026-10-29,2026-10-29 15:21:28
+EMP-00062,Carmen Quispe,55011745,carmen.quispe62@electrocasa.pe,2183.78,S19,Vendedor,Cambio Salario,2026-10-28,2026-11-01 12:57:38
+EMP-01229,Hector Rojas,68476731,hector.rojas1229@electrocasa.pe,1846.32,S20,Vendedor,CAMBIO_SALARIO,2026-10-17,2026-10-17 15:57:54
+EMP-01223,Carmen Chavez,58392032,carmen.chavez1223@electrocasa.pe,2954.33,S04,Encargado de almacen,cambio_salario,2026-10-31,2026-11-05 14:56:21
+EMP-01361,Ana Quispe,50719470,ana.quispe1361@electrocasa.pe,1887.62,S27,Cajero,Transferencia,2026-10-30,2026-11-01 14:43:52
+EMP-00411,Ricardo Rojas,76527967,ricardo.rojas411@electrocasa.pe,1989.87,S24,Encargado de almacen,cambio_salario,2026-10-15,2026-10-20 12:22:03
+EMP-00632,Hector Mamani,50091532,hector.mamani632@electrocasa.pe,1940.11,S17,Asesor de ventas,transferencia,2026-08-30,2026-09-04 09:08:03
+EMP-01009,Fernando Gutierrez,58479982,fernando.gutierrez1009@electrocasa.pe,1636.35,S29,Cajero,CAMBIO_SALARIO,2026-09-01,2026-09-02 16:54:44
+EMP-00989,Rosa Rodriguez,19309620,rosa.rodriguez989@electrocasa.pe,1897.35,S26,Vendedor,Cambio Salario,2026-10-01,2026-10-04 13:09:21
+EMP-00227,Valeria Castillo,20074218,valeria.castillo227@electrocasa.pe,2131.28,S12,Vendedor,Transferencia,2026-09-10,2026-09-14 14:05:49
+EMP-00010,Carlos Alvarez,22132524,carlos.alvarez10@electrocasa.pe,2330.17,S31,Asesor de ventas,cambio_salario,2026-09-26,2026-10-01 18:43:18
+EMP-01074,Carlos Ramirez,49972805,carlos.ramirez1074@electrocasa.pe,1625.87,S16,Vendedor,CAMBIO_SALARIO,2026-09-18,2026-09-18 13:53:16
+EMP-00552,Gabriela Ccahuana,41012507,gabriela.ccahuana552@electrocasa.pe,6162.2,S19,Gerente de tienda,TRANSFERENCIA,2026-09-30,2026-10-03 08:28:10
+EMP-00199,Javier Rodriguez,28681087,javier.rodriguez199@electrocasa.pe,2158.49,S09,Vendedor,Baja,2026-10-28,2026-10-28 15:43:21
+EMP-00714,Lucia Rodriguez,59600004,lucia.rodriguez714@electrocasa.pe,1988.52,S07,Vendedor,Transferencia,2026-10-29,2026-11-01 15:10:33
+EMP-00862,Gabriela Mendoza,67078691,gabriela.mendoza862@electrocasa.pe,4455.04,S28,Supervisor de tienda,alta,2026-09-03,2026-09-08 13:50:06
+EMP-00610,Luis Ramirez,41065196,luis.ramirez610@electrocasa.pe,1905.89,S13,Encargado de almacen,TRANSFERENCIA,2026-10-06,2026-10-06 12:32:53
+EMP-00311,Gabriela Cordova,40281325,gabriela.cordova311@electrocasa.pe,1631.33,S39,Vendedor,Transferencia,2026-09-16,2026-09-18 17:55:22
+EMP-00950,Oscar Mamani,18097765,oscar.mamani950@electrocasa.pe,2381.7,S38,Encargado de almacen,cambio_salario,2026-10-31,2026-11-01 18:08:50
+EMP-00656,Rosa Torres,62438410,rosa.torres656@electrocasa.pe,1701.93,S20,Cajero,Cambio Salario,2026-09-16,2026-09-19 15:31:33
+EMP-00662,Daniela Quispe,42332962,daniela.quispe662@electrocasa.pe,1945.67,S21,Asesor de ventas,CAMBIO_SALARIO,2026-09-15,2026-09-19 15:28:45
+EMP-00214,Milagros Cordova,56966848,milagros.cordova214@electrocasa.pe,1886.88,S04,Vendedor,cese,2026-10-10,2026-10-15 14:40:03
+EMP-01431,Diego Gutierrez,56647752,diego.gutierrez1431@electrocasa.pe,3144.56,S40,Asesor de ventas,CAMBIO_SALARIO,2026-08-31,2026-09-05 10:13:12
+EMP-00591,Valeria Paredes,18087425,valeria.paredes591@electrocasa.pe,2169.22,S09,Encargado de almacen,TRANSFERENCIA,2026-08-31,2026-09-03 15:41:40
+EMP-01172,Miguel Mamani,32724864,miguel.mamani1172@electrocasa.pe,2549.68,S38,Encargado de almacen,Alta,2026-09-06,2026-09-08 16:53:18
+EMP-00868,Carlos Mendoza,62573704,carlos.mendoza868@electrocasa.pe,1700.01,S35,Vendedor,CAMBIO_SALARIO,2026-09-04,2026-09-07 09:19:34
+EMP-00105,Jorge Mamani,61591659,jorge.mamani105@electrocasa.pe,1891.26,S01,Cajero,Baja,2026-10-01,2026-10-04 10:40:25
+EMP-01028,Karina Huaman,60412660,karina.huaman1028@electrocasa.pe,2742.52,S19,Asesor de ventas,cambio_salario,2026-08-13,2026-10-16 09:18:00
+EMP-00269,Raul Vargas,48942718,raul.vargas269@electrocasa.pe,2198.34,S10,Encargado de almacen,cambio_salario,2026-09-25,2026-09-29 15:21:55
+EMP-01460,Lucia Mamani,29420067,lucia.mamani1460@electrocasa.pe,1786.66,S38,Vendedor,TRANSFERENCIA,2026-09-05,2026-09-07 18:00:31
+EMP-01195,Fernando Mamani,37645345,fernando.mamani1195@electrocasa.pe,1564.56,S23,Vendedor,Cambio Salario,2026-09-02,2026-09-05 17:14:31
+EMP-00079,Oscar Torres,39569057,oscar.torres79@electrocasa.pe,2449.7,S32,Asesor de ventas,Baja,2026-09-02,2026-09-03 09:23:37
+EMP-00968,Ricardo Vargas,67187361,ricardo.vargas968@electrocasa.pe,1470.91,S02,Cajero,transferencia,2026-09-13,2026-09-16 16:07:10
+EMP-00156,Luis Paredes,22892094,luis.paredes156@electrocasa.pe,1456.0,S21,Vendedor,cambio_salario,2026-09-15,2026-09-19 15:06:15
+EMP-00463,Fernando Espinoza,62309411,fernando.espinoza463@electrocasa.pe,2210.78,S11,Encargado de almacen,CAMBIO_SALARIO,2026-09-14,2026-09-16 17:18:13
+EMP-00928,Carlos Salazar,65707785,carlos.salazar928@electrocasa.pe,1449.97,S06,Vendedor,ALTA,2026-09-25,2026-09-28 08:50:59
+EMP-00832,Raul Garcia,11795790,raul.garcia832@electrocasa.pe,2215.59,S12,Cajero,transferencia,2026-10-24,2026-10-25 10:40:49
+EMP-00556,Fernando Torres,21348072,fernando.torres556@electrocasa.pe,2515.8,S32,Vendedor,cambio_salario,2026-10-20,2026-10-23 10:33:38
+EMP-01318,Milagros Vargas,50017621,milagros.vargas1318@electrocasa.pe,2444.53,S17,Vendedor,cambio_salario,2026-10-27,2026-10-31 17:54:37
+EMP-01100,Ana Garcia,,ana.garcia1100@electrocasa.pe,2150.41,S01,Asesor de ventas,CAMBIO_SALARIO,2026-09-20,2026-09-25 08:12:11
+EMP-00130,Daniela Alvarez,14824232,daniela.alvarez130@electrocasa.pe,1625.74,S38,Vendedor,cese,2026-09-01,2026-09-03 12:07:49
+EMP-01050,Lucia Salazar,52007905,lucia.salazar1050@electrocasa.pe,2440.0,S29,Vendedor,Transferencia,2026-09-12,2026-09-17 11:09:54
+EMP-00869,Ana Cordova,10211748,ana.cordova869@electrocasa.pe,2243.47,S11,Asesor de ventas,TRANSFERENCIA,2026-10-07,2026-10-08 14:13:58
+EMP-00159,Sofia Garcia,53158997,sofia.garcia159@electrocasa.pe,1957.84,S25,Vendedor,Cambio Salario,2026-10-02,2026-10-02 15:33:26
+EMP-01159,Oscar Salazar,23028176,oscar.salazar1159@electrocasa.pe,1791.17,S26,Vendedor,transferencia,2026-09-26,2026-09-28 08:25:57
+EMP-01216,Gabriela Alvarez,66665085,gabriela.alvarez1216@electrocasa.pe,2082.89,S34,Vendedor,Cambio Salario,2026-09-28,2026-09-30 10:20:13
+EMP-01260,Carlos Flores,22390371,carlos.flores1260@electrocasa.pe,1676.09,S19,Vendedor,cambio_salario,2026-08-30,2026-09-04 16:33:18
+EMP-00877,Ricardo Gutierrez,31166070,ricardo.gutierrez877@electrocasa.pe,2060.65,S20,Vendedor,Cambio Salario,2026-10-31,2026-11-04 16:30:20
+EMP-00799,Raul Torres,17919412,raul.torres799@electrocasa.pe,1914.39,S01,Cajero,cambio_salario,2026-09-20,2026-09-22 11:54:55
+EMP-00461,Fernando Mamani,53661450,fernando.mamani461@electrocasa.pe,2108.91,S12,Vendedor,Cambio Salario,2026-09-05,2026-09-10 09:46:54
+EMP-00477,Daniela Alvarez,54446446,daniela.alvarez477@electrocasa.pe,1646.4,S25,Vendedor,baja,2026-10-26,2026-10-29 14:44:08
+EMP-00548,Miguel Quispe,70106831,miguel.quispe548@electrocasa.pe,1931.51,S01,Asesor de ventas,CAMBIO_SALARIO,2026-09-17,2026-09-22 16:14:15
+EMP-00508,Rosa Garcia,66798997,rosa.garcia508@electrocasa.pe,2179.76,S28,Cajero,cambio_salario,2026-10-09,2026-10-12 15:19:09
+EMP-01441,Carlos Castillo,72016658,carlos.castillo1441@electrocasa.pe,4415.49,S07,Supervisor de tienda,ALTA,2026-09-23,2026-09-26 11:22:28
+EMP-00621,Jorge Quispe,66079325,jorge.quispe621@electrocasa.pe,8203.52,S07,Gerente de tienda,Cambio Salario,2026-09-30,2026-10-02 18:36:47
+EMP-00237,Diego Quispe,46743068,diego.quispe237@electrocasa.pe,2143.03,S26,Vendedor,Transferencia,2026-09-19,2026-09-22 11:22:39
+EMP-00025,Valeria Espinoza,48658087,valeria.espinoza25@electrocasa.pe,2480.26,S28,Vendedor,cambio_salario,2026-09-15,2026-09-18 10:16:02
+EMP-00801,Valeria Alvarez,75376184,valeria.alvarez801@electrocasa.pe,1414.29,S09,Vendedor,ALTA,2026-09-11,2026-09-14 14:08:01
+EMP-00390,Gabriela Chavez,21318481,gabriela.chavez390@electrocasa.pe,1966.05,S03,Vendedor,TRANSFERENCIA,2026-09-07,2026-09-09 15:37:32
+EMP-00577,Ricardo Mamani,71047106,ricardo.mamani577@electrocasa.pe,2314.69,S29,Asesor de ventas,CAMBIO_SALARIO,2026-10-21,2026-10-24 14:26:43
+EMP-01309,Daniela Flores,16364465,daniela.flores1309@electrocasa.pe,1913.69,S34,Asesor de ventas,Cambio Salario,2026-10-16,2026-10-18 14:00:31
+EMP-00103,Fernando Vargas,29583907,fernando.vargas103@electrocasa.pe,3154.16,S38,Supervisor de tienda,cese,2026-10-20,2026-10-25 14:38:42
+EMP-00138,Lucia Huaman,51162448,lucia.huaman138@electrocasa.pe,2152.94,S03,Asesor de ventas,transferencia,2026-10-01,2026-10-04 10:18:52
+EMP-00218,Jorge Mamani,48397886,jorge.mamani218@electrocasa.pe,8479.02,S19,Gerente de tienda,cambio_salario,2026-10-08,2026-10-08 12:44:22
+EMP-01128,Carlos Garcia,11941919,carlos.garcia1128@electrocasa.pe,2474.3,S27,Encargado de almacen,cambio_salario,2026-10-10,2026-10-15 17:52:02
+EMP-00610,Luis Ramirez,41065196,luis.ramirez610@electrocasa.pe,1905.89,S28,Encargado de almacen,Transferencia,2026-08-18,2026-10-10 18:06:00
+EMP-00988,Valeria Rodriguez,75726462,valeria.rodriguez988@electrocasa.pe,6708.0,S39,Gerente de tienda,Cambio Salario,2026-10-18,2026-10-23 15:59:01
+EMP-01158,Gabriela Vargas,10875634,gabriela.vargas1158@electrocasa.pe,2005.09,S14,Vendedor,Cambio Salario,2026-09-18,2026-09-22 15:32:32
+EMP-00408,Daniela Flores,33928433,daniela.flores408@electrocasa.pe,2544.18,S38,Vendedor,CAMBIO_SALARIO,2026-10-12,2026-10-16 16:49:56
+EMP-01269,Rosa Paredes,47570823,rosa.paredes1269@electrocasa.pe,1924.12,S07,Vendedor,cambio_salario,2026-09-29,2026-10-01 17:35:31
+EMP-01470,Miguel Rodriguez,16715132,miguel.rodriguez1470@electrocasa.pe,2444.64,S12,Vendedor,transferencia,2026-10-28,2026-10-29 16:38:45
+EMP-00623,Raul Castillo,50763694,raul.castillo623@electrocasa.pe,1387.32,S16,Cajero,Alta,2026-08-29,2026-09-03 11:26:08
+EMP-00607,Hector Salazar,76852433,hector.salazar607@electrocasa.pe,2238.0,S31,Vendedor,cambio_salario,2026-10-17,2026-10-18 08:41:09
+EMP-00536,Carmen Gutierrez,72562830,carmen.gutierrez536@electrocasa.pe,2421.64,S17,Encargado de almacen,cambio_salario,2026-09-10,2026-09-13 12:45:34
+EMP-01248,Patricia Paredes,74762327,patricia.paredes1248@electrocasa.pe,2168.08,S15,Cajero,Cambio Salario,2026-10-25,2026-10-28 17:17:07
+EMP-01253,Sofia Rodriguez,58631938,sofia.rodriguez1253@electrocasa.pe,1694.07,S02,Vendedor,CAMBIO_SALARIO,2026-10-08,2026-10-12 09:02:49
+EMP-00056,Carlos Ramirez,69183019,carlos.ramirez56@electrocasa.pe,1782.33,S26,Vendedor,CAMBIO_SALARIO,2026-09-10,2026-09-10 16:23:14
+EMP-01318,Milagros Vargas,50017621,milagros.vargas1318@electrocasa.pe,2227.39,S17,Vendedor,Cambio Salario,2026-09-17,2026-09-21 11:27:36
+EMP-01279,Daniela Rojas,66819482,daniela.rojas1279@electrocasa.pe,1918.11,S02,Vendedor,Transferencia,2026-09-01,2026-09-06 17:53:21
+EMP-00650,Valeria Mamani,40517592,valeria.mamani650@electrocasa.pe,2572.8,S09,Asesor de ventas,CAMBIO_SALARIO,2026-10-19,2026-10-21 10:31:28
+EMP-00046,Miguel Garcia,45992105,miguel.garcia46@electrocasa.pe,2568.9,S12,Asesor de ventas,cambio_salario,2026-09-15,2026-09-15 17:12:46
+EMP-00764,Fernando Espinoza,78502465,fernando.espinoza764@electrocasa.pe,2384.59,S04,Vendedor,cambio_salario,2026-10-16,2026-10-21 18:09:35
+EMP-00513,Ricardo Ramirez,62782947,ricardo.ramirez513@electrocasa.pe,2307.34,S08,Asesor de ventas,Cambio Salario,2026-09-24,2026-09-27 09:47:10
+EMP-00823,Carlos Cordova,49139463,carlos.cordova823@electrocasa.pe,3116.2,S03,Encargado de almacen,CAMBIO_SALARIO,2026-10-04,2026-10-09 14:10:53
+EMP-00042,Lucia Ccahuana,53320734,lucia.ccahuana42@electrocasa.pe,1959.99,S05,Vendedor,alta,2026-09-25,2026-09-29 13:01:27
+EMP-00109,Carmen Mendoza,67752601,carmen.mendoza109@electrocasa.pe,2069.73,S20,Vendedor,Cambio Salario,2026-10-20,2026-10-25 15:48:29
+EMP-00050,Rosa Paredes,19217055,rosa.paredes50@electrocasa.pe,2942.17,S22,Asesor de ventas,CAMBIO_SALARIO,2026-10-11,2026-10-13 10:31:01
+EMP-00204,Carlos Mendoza,40151736,carlos.mendoza204@electrocasa.pe,1624.71,S12,Vendedor,Transferencia,2026-10-25,2026-10-26 17:48:43
+EMP-00562,Ana Gutierrez,23987468,ana.gutierrez562@electrocasa.pe,1608.56,S18,Vendedor,transferencia,2026-10-11,2026-10-16 14:26:51
+EMP-01297,Ana Espinoza,60342532,ana.espinoza1297@electrocasa.pe,2243.85,S08,Vendedor,Transferencia,2026-10-07,2026-10-08 15:15:01
+EMP-01433,Jorge Gutierrez,38091284,jorge.gutierrez1433@electrocasa.pe,1623.01,S28,Cajero,baja,2026-10-12,2026-10-12 12:15:02
+EMP-01113,Fernando Torres,43947733,fernando.torres1113@electrocasa.pe,2466.35,S37,Asesor de ventas,CAMBIO_SALARIO,2026-08-08,2026-10-26 14:24:00
+EMP-00649,Raul Rojas,45949538,raul.rojas649@electrocasa.pe,2782.06,S34,Vendedor,cambio_salario,2026-10-13,2026-10-18 08:35:54
+EMP-01004,Gabriela Rodriguez,73894085,gabriela.rodriguez1004@electrocasa.pe,1616.87,S20,Vendedor,Cambio Salario,2026-10-16,2026-10-18 11:48:05
+EMP-00816,Fernando Paredes,62747862,fernando.paredes816@electrocasa.pe,242999.0,S20,Asesor de ventas,cambio_salario,2026-09-01,2026-09-02 14:37:21
+EMP-00949,Gabriela Ccahuana,56338611,gabriela.ccahuana949@electrocasa.pe,2489.41,S40,Asesor de ventas,Cambio Salario,2026-10-04,2026-10-04 14:08:48
+EMP-00207,Diego Torres,17353988,diego.torres207@electrocasa.pe,1262.15,S05,Cajero,alta,2026-09-05,2026-09-10 14:48:39
+EMP-00427,Javier Espinoza,22943197,javier.espinoza427@electrocasa.pe,1996.81,S06,Vendedor,Cambio Salario,2026-10-04,2026-10-05 18:02:13
+EMP-01245,Patricia Paredes,46142567,patricia.paredes1245@electrocasa.pe,2242.75,S04,Vendedor,CAMBIO_SALARIO,2026-09-10,2026-09-13 10:22:50
+EMP-00759,Ana Alvarez,44212948,ana.alvarez759@electrocasa.pe,1644.2,S36,Cajero,baja,2026-09-30,2026-10-03 17:16:13
+EMP-00826,Oscar Mendoza,64489441,oscar.mendoza826@electrocasa.pe,2134.65,S20,Encargado de almacen,Cambio Salario,2026-07-27,2026-10-23 14:06:00
+EMP-00849,Luis Mamani,72838861,luis.mamani849@electrocasa.pe,2000.57,S34,Asesor de ventas,transferencia,2026-10-08,2026-10-13 13:23:54
+EMP-01304,Valeria Salazar,18926459,valeria.salazar1304@electrocasa.pe,1708.25,S27,Vendedor,Alta,2026-08-31,2026-09-05 10:52:21
+EMP-00164,Miguel Gutierrez,15125648,miguel.gutierrez164@electrocasa.pe,1735.74,S02,Vendedor,CAMBIO_SALARIO,2026-09-16,2026-09-21 12:25:23
+EMP-00691,Rosa Chavez,32591137,rosa.chavez691@electrocasa.pe,1795.18,S38,Cajero,TRANSFERENCIA,2026-09-05,2026-09-08 18:17:14
+EMP-00133,Daniela Mamani,67034515,daniela.mamani133@electrocasa.pe,1689.05,S06,Cajero,Cambio Salario,2026-09-20,2026-09-21 14:08:00
+EMP-00861,Karina Huaman,75132791,karina.huaman861@electrocasa.pe,2652.5,S15,Asesor de ventas,CAMBIO_SALARIO,2026-10-13,2026-10-16 16:27:36
+EMP-00304,Patricia Espinoza,13292562,patricia.espinoza304@electrocasa.pe,1599.74,S10,Cajero,cambio_salario,2026-10-27,2026-11-01 09:25:01
+EMP-00383,Daniela Cordova,43532726,daniela.cordova383@electrocasa.pe,2294.25,S37,Asesor de ventas,CAMBIO_SALARIO,2026-10-05,2026-10-10 11:13:03
+EMP-01013,Lucia Salazar,23057852,lucia.salazar1013@electrocasa.pe,2293.23,S18,Vendedor,CAMBIO_SALARIO,2026-09-02,2026-09-04 13:47:05
+EMP-00269,Raul Vargas,48942718,raul.vargas269@electrocasa.pe,2198.34,S10,Encargado de almacen,cese,2026-10-30,2026-10-31 17:24:55
+EMP-00724,Lucia Vargas,16750681,lucia.vargas724@electrocasa.pe,1341.59,S05,Cajero,Cambio Salario,2026-10-31,2026-11-03 11:51:11
+EMP-01151,Fernando Castillo,32316456,fernando.castillo1151@electrocasa.pe,1685.91,S17,Vendedor,transferencia,2026-09-20,2026-09-20 10:21:08
+EMP-00751,Carlos Huaman,49767307,carlos.huaman751@electrocasa.pe,1714.11,S16,Vendedor,transferencia,2026-10-20,2026-10-24 17:00:44
+EMP-00648,Hector Gutierrez,66687662,hector.gutierrez648@electrocasa.pe,1461.76,S39,Vendedor,cambio_salario,2026-09-05,2026-09-05 12:39:10
+EMP-01373,Fernando Chavez,14297564,fernando.chavez1373@electrocasa.pe,2905.75,S21,Asesor de ventas,Cambio Salario,2026-10-07,2026-10-10 18:55:31
+EMP-00599,Daniela Mamani,33763458,daniela.mamani599@electrocasa.pe,1784.44,S10,Vendedor,cambio_salario,2026-10-04,2026-10-09 10:24:11
+EMP-01123,Karina Ccahuana,43219290,karina.ccahuana1123@electrocasa.pe,2582.6,S08,Vendedor,Transferencia,2026-09-11,2026-09-15 09:10:54
+EMP-00944,Carmen Gutierrez,79346647,carmen.gutierrez944@electrocasa.pe,1943.0,S18,Asesor de ventas,cambio_salario,2026-10-22,2026-10-25 18:30:35
+EMP-00546,Ricardo Castillo,61620008,ricardo.castillo546@electrocasa.pe,4318.44,S17,Supervisor de tienda,Transferencia,2026-09-27,2026-10-02 15:58:28
+EMP-01138,Valeria Rojas,,valeria.rojas1138@electrocasa.pe,2358.67,S26,Asesor de ventas,Cambio Salario,2026-09-22,2026-09-26 09:36:59
+EMP-00655,Valeria Vargas,48757114,valeria.vargas655@electrocasa.pe,1429.03,S35,Cajero,baja,2026-10-14,2026-10-18 10:20:04
+EMP-00620,Milagros Alvarez,21000908,milagros.alvarez620@electrocasa.pe,1885.12,S13,Vendedor,ALTA,2026-09-24,2026-09-27 14:01:03
+EMP-00244,Sofia Cordova,50639503,sofia.cordova244@electrocasa.pe,2586.2,S30,Asesor de ventas,CAMBIO_SALARIO,2026-09-13,2026-09-15 18:24:45
+EMP-00169,Gabriela Mamani,51208446,gabriela.mamani169@electrocasa.pe,2630.81,S35,Vendedor,Baja,2026-10-06,2026-10-08 18:37:18
+EMP-01095,Ricardo Torres,15778622,ricardo.torres1095@electrocasa.pe,1390.64,S16,Cajero,TRANSFERENCIA,2026-10-21,2026-10-22 13:31:01
+EMP-00027,Miguel Castillo,12908751,miguel.castillo27@electrocasa.pe,2127.9,S28,Vendedor,transferencia,2026-09-27,2026-09-30 14:18:05
+EMP-01447,Milagros Salazar,13296544,milagros.salazar1447@electrocasa.pe,1575.4,S15,Vendedor,CAMBIO_SALARIO,2026-09-25,2026-09-25 14:03:08
+EMP-00863,Luis Ramirez,59092972,luis.ramirez863@electrocasa.pe,2621.29,S19,Vendedor,Cambio Salario,2026-09-16,2026-09-17 13:27:26
+EMP-01045,Jorge Mendoza,29802732,jorge.mendoza1045@electrocasa.pe,1541.77,S24,Vendedor,cambio_salario,2026-10-05,2026-10-09 11:29:48
+EMP-00745,Milagros Castillo,32297210,milagros.castillo745@electrocasa.pe,3254.9,S08,Encargado de almacen,CAMBIO_SALARIO,2026-09-08,2026-09-13 11:20:36
+EMP-00483,Ricardo Ccahuana,59699664,ricardo.ccahuana483@electrocasa.pe,1666.62,S21,Vendedor,cambio_salario,2026-10-07,2026-10-09 14:23:54
+EMP-00771,Carlos Salazar,70965081,carlos.salazar771@electrocasa.pe,1434.32,S06,Cajero,transferencia,2026-09-05,2026-09-05 16:17:08
+EMP-00802,Jorge Torres,52865169,jorge.torres802@electrocasa.pe,2013.54,S18,Asesor de ventas,Cambio Salario,2026-08-27,2026-09-01 15:47:57
+EMP-00490,Luis Alvarez,34654095,luis.alvarez490@electrocasa.pe,2110.41,S10,Vendedor,transferencia,2026-09-08,2026-09-10 17:45:23
+EMP-00894,Diego Huaman,79947091,diego.huaman894@electrocasa.pe,1972.95,S13,Asesor de ventas,TRANSFERENCIA,2026-09-24,2026-09-25 10:13:08
+EMP-01107,Gabriela Torres,56437719,gabriela.torres1107@electrocasa.pe,1792.97,S35,Asesor de ventas,CAMBIO_SALARIO,2026-10-15,2026-10-19 10:18:04
+EMP-00205,Rosa Vargas,42188018,rosa.vargas205@electrocasa.pe,2067.89,S16,Vendedor,cambio_salario,2026-10-05,2026-10-05 18:57:24
+EMP-00089,Milagros Mendoza,29189007,milagros.mendoza89@electrocasa.pe,1960.47,S32,Vendedor,Cambio Salario,2026-10-17,2026-10-19 11:23:44
+EMP-00593,Jorge Gutierrez,,jorge.gutierrez593@electrocasa.pe,5551.25,S11,Gerente de tienda,Alta,2026-09-30,2026-10-02 18:48:59
+EMP-00068,Lucia Cordova,,lucia.cordova68@electrocasa.pe,1956.79,S12,Asesor de ventas,Transferencia,2026-10-29,2026-10-31 14:50:32
+EMP-00091,Luis Cordova,48114731,luis.cordova91@electrocasa.pe,1965.24,S12,Vendedor,CAMBIO_SALARIO,2026-09-03,2026-09-07 12:13:16
+EMP-01259,Valeria Quispe,63075301,valeria.quispe1259@electrocasa.pe,2071.16,S25,Encargado de almacen,Cambio Salario,2026-10-12,2026-10-12 14:52:00
+EMP-00358,Valeria Ccahuana,23848825,valeria.ccahuana358@electrocasa.pe,1647.07,S10,Cajero,TRANSFERENCIA,2026-09-06,2026-09-08 08:15:17
+EMP-01358,Ana Quispe,29293003,ana.quispe1358@electrocasa.pe,1499.53,S32,Vendedor,cambio_salario,2026-10-17,2026-10-19 08:42:52
+EMP-00625,Fernando Castillo,76927540,fernando.castillo625@electrocasa.pe,2277.33,S03,Asesor de ventas,CAMBIO_SALARIO,2026-09-13,2026-09-17 09:51:37
+EMP-00277,Karina Torres,68919241,karina.torres277@electrocasa.pe,1761.2,S03,Vendedor,Cambio Salario,2026-10-08,2026-10-10 12:28:42
+EMP-00442,Gabriela Salazar,41004347,gabriela.salazar442@electrocasa.pe,1802.09,S16,Vendedor,transferencia,2026-09-05,2026-09-06 13:06:09
+EMP-00789,Raul Mendoza,46275393,raul.mendoza789@electrocasa.pe,2317.28,S24,Cajero,Cambio Salario,2026-09-09,2026-09-10 08:07:21
+EMP-00728,Ricardo Vargas,66974620,ricardo.vargas728@electrocasa.pe,2393.71,S02,Vendedor,BAJA,2026-09-26,2026-09-30 10:01:47
+EMP-00547,Miguel Mamani,45943311,miguel.mamani547@electrocasa.pe,2233.68,S03,Vendedor,CAMBIO_SALARIO,2026-10-03,2026-10-04 14:14:50
+EMP-00883,Ricardo Vargas,33346152,ricardo.vargas883@electrocasa.pe,2445.21,S19,Vendedor,cambio_salario,2026-09-11,2026-09-14 08:11:23
+EMP-00193,Sofia Chavez,79879971,sofia.chavez193@electrocasa.pe,2066.54,S14,Asesor de ventas,cambio_salario,2026-10-07,2026-10-11 16:05:15
+EMP-00655,Valeria Vargas,48757114,valeria.vargas655@electrocasa.pe,1429.03,S35,Cajero,TRANSFERENCIA,2026-09-16,2026-09-20 11:50:57
+EMP-00219,Valeria Ramirez,37808346,valeria.ramirez219@electrocasa.pe,2694.87,S31,Asesor de ventas,CAMBIO_SALARIO,2026-09-29,2026-10-01 17:28:18
+EMP-00659,Miguel Quispe,27918568,miguel.quispe659@electrocasa.pe,1588.57,S11,Vendedor,Cambio Salario,2026-09-13,2026-09-15 14:59:07
+EMP-00558,Gabriela Garcia,30028970,gabriela.garcia558@electrocasa.pe,1901.43,S23,Cajero,cambio_salario,2026-10-06,2026-10-10 18:05:45
+EMP-00721,Carlos Paredes,20793026,carlos.paredes721@electrocasa.pe,1853.62,S38,Vendedor,TRANSFERENCIA,2026-09-19,2026-09-23 17:53:35
+EMP-01030,Ricardo Alvarez,33916096,ricardo.alvarez1030@electrocasa.pe,2422.55,S17,Encargado de almacen,TRANSFERENCIA,2026-10-24,2026-10-24 17:33:14
+EMP-00428,Rosa Quispe,77023992,rosa.quispe428@electrocasa.pe,2066.26,S20,Asesor de ventas,ALTA,2026-09-06,2026-09-06 14:56:08
+EMP-01200,Diego Huaman,24094308,diego.huaman1200@electrocasa.pe,1950.46,S14,Vendedor,Cambio Salario,2026-09-23,2026-09-24 12:02:39
+EMP-00659,Miguel Quispe,27918568,miguel.quispe659@electrocasa.pe,1388.57,S11,Vendedor,ALTA,2026-09-13,2026-09-15 13:59:07
+EMP-01256,Miguel Huaman,46730224,miguel.huaman1256@electrocasa.pe,2951.6,S23,Encargado de almacen,Baja,2026-09-24,2026-09-24 09:55:39
+EMP-01484,Javier Torres,47324735,javier.torres1484@electrocasa.pe,1791.91,S21,Vendedor,cambio_salario,2026-10-31,2026-10-31 17:04:54
+EMP-00441,Ricardo Quispe,51115072,ricardo.quispe441@electrocasa.pe,1662.84,S33,Vendedor,Alta,2026-09-28,2026-10-02 08:36:19
+EMP-01439,Valeria Alvarez,63748280,valeria.alvarez1439@electrocasa.pe,1594.11,S07,Cajero,Cambio Salario,2026-09-10,2026-09-14 14:47:41
+EMP-00631,Karina Ccahuana,76232926,karina.ccahuana631@electrocasa.pe,2589.43,S13,Asesor de ventas,CAMBIO_SALARIO,2026-09-22,2026-09-26 08:20:35
+EMP-00654,Ana Rodriguez,47412498,ana.rodriguez654@electrocasa.pe,2213.04,S06,Vendedor,cambio_salario,2026-10-31,2026-11-02 13:34:58
+EMP-00127,Hector Chavez,45999321,hector.chavez127@electrocasa.pe,1681.55,S08,Asesor de ventas,CAMBIO_SALARIO,2026-09-28,2026-09-29 08:23:57
+EMP-00259,Luis Salazar,28191562,luis.salazar259@electrocasa.pe,1346.23,S23,Cajero,alta,2026-08-29,2026-09-01 08:35:05
+EMP-00830,Ana Chavez,35163676,ana.chavez830@electrocasa.pe,2652.85,S40,Asesor de ventas,TRANSFERENCIA,2026-10-25,2026-10-26 16:59:05
+EMP-00654,Ana Rodriguez,47412498,ana.rodriguez654@electrocasa.pe,1963.0,S06,Vendedor,Transferencia,2026-09-24,2026-09-25 13:46:51
+EMP-01003,Fernando Cordova,35743090,fernando.cordova1003@electrocasa.pe,2096.99,S16,Vendedor,cambio_salario,2026-08-30,2026-09-03 13:01:26
+EMP-01314,Luis Cordova,41638508,luis.cordova1314@electrocasa.pe,1944.02,S23,Asesor de ventas,Cambio Salario,2026-08-29,2026-09-02 16:13:14
+EMP-01148,Ricardo Gutierrez,18631772,ricardo.gutierrez1148@electrocasa.pe,1835.04,S26,Encargado de almacen,Transferencia,2026-10-31,2026-11-01 16:49:50
+EMP-01402,Diego Alvarez,48978861,diego.alvarez1402@electrocasa.pe,2164.19,S31,Vendedor,Cambio Salario,2026-09-04,2026-09-04 09:13:01
+EMP-01360,Milagros Vargas,65820995,milagros.vargas1360@electrocasa.pe,2550.61,S24,Vendedor,Cambio Salario,2026-09-12,2026-09-14 11:11:08
+EMP-00561,Oscar Quispe,76041108,oscar.quispe561@electrocasa.pe,1989.17,S25,Asesor de ventas,transferencia,2026-09-10,2026-09-13 15:30:30
+EMP-00092,Karina Castillo,54996566,karina.castillo92@electrocasa.pe,2137.93,S28,Vendedor,Transferencia,2026-09-27,2026-09-27 15:57:27
+EMP-01417,Rosa Quispe,64085788,rosa.quispe1417@electrocasa.pe,2011.7,S01,Cajero,CAMBIO_SALARIO,2026-10-24,2026-10-24 18:47:45
+EMP-01168,Gabriela Vargas,34190728,gabriela.vargas1168@electrocasa.pe,1892.35,S20,Cajero,CAMBIO_SALARIO,2026-10-25,2026-10-26 08:01:08
+EMP-00960,Ricardo Cordova,38334919,ricardo.cordova960@electrocasa.pe,1507.71,S13,Vendedor,cese,2026-09-01,2026-09-06 15:27:11
+EMP-00616,Gabriela Rodriguez,76840416,gabriela.rodriguez616@electrocasa.pe,2500.63,S39,Vendedor,transferencia,2026-09-05,2026-09-05 17:16:44
+EMP-00982,Diego Flores,62595991,diego.flores982@electrocasa.pe,1434.57,S22,Cajero,Cambio Salario,2026-09-25,2026-09-27 17:39:03
+EMP-01113,Fernando Torres,43947733,fernando.torres1113@electrocasa.pe,2658.81,S37,Asesor de ventas,CAMBIO_SALARIO,2026-10-07,2026-10-10 18:31:10
+EMP-00481,Sofia Mamani,49915536,sofia.mamani481@electrocasa.pe,1579.51,S37,Vendedor,CAMBIO_SALARIO,2026-06-16,2026-10-27 11:38:00
+EMP-01268,Oscar Torres,18861250,oscar.torres1268@electrocasa.pe,1313.35,S20,Cajero,cambio_salario,2026-10-03,2026-10-04 12:18:36
+EMP-00104,Patricia Mamani,20610729,patricia.mamani104@electrocasa.pe,6972.06,S24,Gerente de tienda,Transferencia,2026-09-01,2026-09-06 09:17:57
+EMP-00734,Daniela Rojas,34644523,daniela.rojas734@electrocasa.pe,1385.81,S11,Cajero,Alta,2026-09-14,2026-09-17 09:26:58
+EMP-00392,Lucia Torres,46703872,lucia.torres392@electrocasa.pe,2165.55,S32,Vendedor,Transferencia,2026-09-18,2026-09-23 15:09:25
+EMP-00469,Javier Alvarez,56828563,javier.alvarez469@electrocasa.pe,1821.22,S35,Vendedor,transferencia,2026-10-23,2026-10-24 15:10:02
+EMP-00188,Sofia Chavez,38556537,sofia.chavez188@electrocasa.pe,2248.7,S01,Vendedor,cese,2026-09-08,2026-09-12 17:02:51
+EMP-01307,Ana Mamani,66052630,ana.mamani1307@electrocasa.pe,3459.49,S11,Encargado de almacen,cambio_salario,2026-10-10,2026-10-11 15:39:41
+EMP-00167,Carmen Chavez,26265823,carmen.chavez167@electrocasa.pe,1557.76,S32,Vendedor,CAMBIO_SALARIO,2026-10-25,2026-10-26 14:37:33
+EMP-00880,Diego Rodriguez,18140242,diego.rodriguez880@electrocasa.pe,1373.38,S13,Cajero,cese,2026-09-23,2026-09-23 14:19:29
+EMP-00434,Sofia Vargas,13469854,sofia.vargas434@electrocasa.pe,2055.0,S37,Vendedor,TRANSFERENCIA,2026-09-09,2026-09-11 13:55:05
+EMP-00346,Luis Vargas,47468218,luis.vargas346@electrocasa.pe,2363.1,S17,Asesor de ventas,TRANSFERENCIA,2026-09-27,2026-10-02 10:47:28
+EMP-01448,Javier Salazar,66752574,javier.salazar1448@electrocasa.pe,3176.7,S13,Supervisor de tienda,cambio_salario,2026-10-27,2026-11-01 08:53:50
+EMP-00205,Rosa Vargas,42188018,rosa.vargas205@electrocasa.pe,1818.81,S16,Vendedor,cambio_salario,2026-09-09,2026-09-10 09:56:26
+EMP-00665,Sofia Espinoza,20085888,sofia.espinoza665@electrocasa.pe,2394.32,S17,Vendedor,Cambio Salario,2026-10-18,2026-10-18 16:08:32
+EMP-00300,Ana Flores,29490133,ana.flores300@electrocasa.pe,2427.17,S39,Asesor de ventas,cambio_salario,2026-09-14,2026-09-19 14:30:17
+EMP-00614,Javier Garcia,20683614,javier.garcia614@electrocasa.pe,1849.53,S33,Vendedor,TRANSFERENCIA,2026-10-12,2026-10-15 08:04:53
+EMP-00264,Gabriela Cordova,29751922,gabriela.cordova264@electrocasa.pe,2080.89,S36,Vendedor,BAJA,2026-10-18,2026-10-23 12:22:34
+EMP-00588,Javier Huaman,27624674,javier.huaman588@electrocasa.pe,1590.13,S02,Cajero,CAMBIO_SALARIO,2026-10-15,2026-10-20 16:24:23
+EMP-00323,Gabriela Salazar,69842606,gabriela.salazar323@electrocasa.pe,1914.38,S20,Cajero,Cambio Salario,2026-10-11,2026-10-13 14:10:01
+EMP-01010,Carmen Quispe,71987416,carmen.quispe1010@electrocasa.pe,2354.35,S24,Asesor de ventas,transferencia,2026-09-21,2026-09-22 12:48:12
+EMP-00125,Gabriela Alvarez,15903369,gabriela.alvarez125@electrocasa.pe,1342.91,S04,Cajero,alta,2026-09-28,2026-10-03 11:29:28
+EMP-00123,Daniela Torres,14888159,daniela.torres123@electrocasa.pe,3382.99,S34,Asesor de ventas,CAMBIO_SALARIO,2026-09-08,2026-09-10 08:50:12
+EMP-00958,Daniela Mendoza,13685942,daniela.mendoza958@electrocasa.pe,2752.96,S22,Vendedor,cambio_salario,2026-10-01,2026-10-06 13:41:06
+EMP-00931,Hector Paredes,79061286,hector.paredes931@electrocasa.pe,3406.32,S10,Supervisor de tienda,ALTA,2026-09-05,2026-09-06 17:45:42
+EMP-00119,Javier Paredes,52533842,javier.paredes119@electrocasa.pe,2114.59,S12,Asesor de ventas,CAMBIO_SALARIO,2026-10-17,2026-10-22 14:58:25
+EMP-01053,Patricia Flores,49015913,patricia.flores1053@electrocasa.pe,1960.67,S23,Cajero,Cambio Salario,2026-08-31,2026-10-17 16:30:00
+EMP-00460,Hector Huaman,49111748,hector.huaman460@electrocasa.pe,2066.36,S34,Cajero,Cambio Salario,2026-10-29,2026-11-01 18:09:01
+EMP-00857,Javier Espinoza,52749587,javier.espinoza857@electrocasa.pe,1930.69,S10,Encargado de almacen,cambio_salario,2026-08-11,2026-10-10 14:40:00
+EMP-01380,Rosa Mamani,20539619,rosa.mamani1380@electrocasa.pe,2264.35,S09,Vendedor,Cambio Salario,2026-10-13,2026-10-16 10:55:27
+EMP-00740,Javier Torres,36363950,javier.torres740@electrocasa.pe,2725.03,S38,Asesor de ventas,cambio_salario,2026-09-23,2026-09-25 15:49:07
+EMP-00810,Milagros Gutierrez,64147497,milagros.gutierrez810@electrocasa.pe,1830.21,S07,Asesor de ventas,cese,2026-10-09,2026-10-14 09:00:45
+EMP-00636,Luis Espinoza,,luis.espinoza636@electrocasa.pe,1787.94,S10,Cajero,transferencia,2026-10-15,2026-10-17 17:51:15
+EMP-01215,Diego Ccahuana,,diego.ccahuana1215@electrocasa.pe,2097.99,S06,Vendedor,TRANSFERENCIA,2026-09-09,2026-09-10 09:59:32
+EMP-00352,Javier Rojas,78472869,javier.rojas352@electrocasa.pe,1818.91,S30,Encargado de almacen,cese,2026-10-14,2026-10-15 10:53:07
+EMP-00241,Sofia Garcia,11379898,sofia.garcia241@electrocasa.pe,2285.57,S31,Vendedor,CAMBIO_SALARIO,2026-09-14,2026-09-19 13:36:03
+EMP-01392,Diego Quispe,26851586,diego.quispe1392@electrocasa.pe,3220.67,S36,Encargado de almacen,cambio_salario,2026-09-06,2026-09-07 18:51:12
+EMP-00126,Luis Chavez,49149476,luis.chavez126@electrocasa.pe,1697.95,S03,Vendedor,TRANSFERENCIA,2026-09-08,2026-09-08 18:15:26
+EMP-00531,Luis Rodriguez,29909187,luis.rodriguez531@electrocasa.pe,2629.26,S12,Encargado de almacen,Baja,2026-09-27,2026-10-02 13:12:06
+EMP-01366,Fernando Rodriguez,24435248,fernando.rodriguez1366@electrocasa.pe,1807.93,S20,Asesor de ventas,cambio_salario,2026-10-04,2026-10-07 08:16:06
+EMP-00419,Karina Rojas,38523825,karina.rojas419@electrocasa.pe,1681.79,S07,Vendedor,TRANSFERENCIA,2026-09-05,2026-09-10 18:06:38
+EMP-01339,Oscar Rodriguez,28206308,oscar.rodriguez1339@electrocasa.pe,2212.92,S26,Vendedor,Cambio Salario,2026-10-12,2026-10-13 11:44:54
+EMP-00589,Lucia Mamani,64203250,lucia.mamani589@electrocasa.pe,4368.49,S04,Supervisor de tienda,Transferencia,2026-10-11,2026-10-11 11:31:29
+EMP-01185,Patricia Ramirez,60479739,patricia.ramirez1185@electrocasa.pe,3230.41,S16,Asesor de ventas,Cambio Salario,2026-10-05,2026-10-10 11:53:44
+EMP-00571,Jorge Paredes,53359068,jorge.paredes571@electrocasa.pe,2303.23,S37,Vendedor,cese,2026-09-11,2026-09-14 14:39:56
+EMP-01241,Carlos Mendoza,11697608,carlos.mendoza1241@electrocasa.pe,2470.06,S31,Asesor de ventas,cambio_salario,2026-10-14,2026-10-16 15:09:41
+EMP-00252,Gabriela Rojas,74666200,gabriela.rojas252@electrocasa.pe,1706.11,S03,Vendedor,Alta,2026-08-28,2026-09-02 15:58:12
+EMP-00638,Hector Mamani,65090045,hector.mamani638@electrocasa.pe,1416.12,S31,Vendedor,Alta,2026-09-30,2026-10-01 17:31:40
+EMP-00259,Luis Salazar,28191562,luis.salazar259@electrocasa.pe,1446.23,S23,Cajero,CAMBIO_SALARIO,2026-08-29,2026-09-03 10:37:32
+EMP-00743,Sofia Mamani,40435228,sofia.mamani743@electrocasa.pe,1750.26,S06,Vendedor,alta,2026-09-13,2026-09-16 11:13:12
+EMP-00548,Miguel Quispe,70106831,miguel.quispe548@electrocasa.pe,1682.15,S01,Asesor de ventas,transferencia,2026-06-27,2026-10-26 17:22:00
+EMP-01001,Milagros Flores,76152579,milagros.flores1001@electrocasa.pe,2196.22,S31,Vendedor,cese,2026-10-13,2026-10-17 10:00:09
+EMP-00503,Diego Salazar,49908096,diego.salazar503@electrocasa.pe,1932.45,S21,Vendedor,alta,2026-09-08,2026-09-08 10:41:50
+EMP-00978,Sofia Quispe,23974342,sofia.quispe978@electrocasa.pe,1992.47,S25,Vendedor,CAMBIO_SALARIO,2026-10-04,2026-10-07 08:55:25
+EMP-00168,Sofia Castillo,53168321,sofia.castillo168@electrocasa.pe,2519.35,S25,Asesor de ventas,ALTA,2026-08-31,2026-09-05 14:28:37
+EMP-01293,Rosa Garcia,30919216,rosa.garcia1293@electrocasa.pe,2137.63,S13,Cajero,cambio_salario,2026-09-23,2026-09-27 12:16:19
+EMP-00532,Luis Castillo,44117463,luis.castillo532@electrocasa.pe,2282.52,S33,Asesor de ventas,Cambio Salario,2026-09-18,2026-09-22 08:28:37
+EMP-00341,Karina Alvarez,39374990,karina.alvarez341@electrocasa.pe,2377.82,S21,Vendedor,cambio_salario,,2026-10-22 14:39:00
+EMP-00932,Jorge Garcia,32717308,jorge.garcia932@electrocasa.pe,1711.55,S12,Asesor de ventas,cambio_salario,2026-10-06,2026-10-09 12:03:35
+EMP-00565,Gabriela Salazar,18721900,gabriela.salazar565@electrocasa.pe,2971.94,S10,Asesor de ventas,Cambio Salario,2026-10-24,2026-10-27 10:11:24
+EMP-00987,Miguel Rojas,75028113,miguel.rojas987@electrocasa.pe,2492.6,S21,Vendedor,transferencia,2026-10-30,2026-10-30 17:57:37
+EMP-01434,Miguel Rodriguez,44265593,miguel.rodriguez1434@electrocasa.pe,1527.91,S14,Vendedor,transferencia,2026-09-09,2026-09-11 15:06:37
+EMP-00246,Javier Espinoza,34732644,javier.espinoza246@electrocasa.pe,2735.83,S33,Encargado de almacen,Transferencia,2026-09-23,2026-09-24 08:58:33
+EMP-00805,Fernando Ramirez,67171233,fernando.ramirez805@electrocasa.pe,4311.84,S21,Supervisor de tienda,cambio_salario,2026-10-12,2026-10-17 14:00:14
+EMP-00298,Daniela Ccahuana,48724887,daniela.ccahuana298@electrocasa.pe,1851.9,S39,Vendedor,Cambio Salario,2026-09-18,2026-09-23 09:56:24
+EMP-00645,Carlos Espinoza,14402883,carlos.espinoza645@electrocasa.pe,1660.53,S15,Vendedor,Cambio Salario,2026-09-14,2026-09-14 08:02:07
+EMP-00835,Fernando Rojas,78107587,fernando.rojas835@electrocasa.pe,2219.6,S07,Asesor de ventas,TRANSFERENCIA,2026-09-14,2026-09-18 10:34:55
+EMP-01356,Javier Mamani,71994077,javier.mamani1356@electrocasa.pe,2981.52,S02,Asesor de ventas,Cambio Salario,2026-10-02,2026-10-06 12:46:12
+EMP-01189,Sofia Alvarez,50931937,sofia.alvarez1189@electrocasa.pe,1688.85,S37,Asesor de ventas,Transferencia,2026-10-02,2026-10-07 15:24:18
+EMP-00743,Sofia Mamani,40435228,sofia.mamani743@electrocasa.pe,1914.62,S06,Vendedor,cambio_salario,2026-10-23,2026-10-25 09:06:26
+EMP-00286,Javier Rojas,,javier.rojas286@electrocasa.pe,1342.47,S22,Vendedor,Transferencia,2026-09-25,2026-09-27 16:15:13
+EMP-00661,Lucia Castillo,16842114,lucia.castillo661@electrocasa.pe,2077.41,S28,Vendedor,Cambio Salario,2026-09-10,2026-09-13 10:01:29
+EMP-00152,Fernando Paredes,21836240,fernando.paredes152@electrocasa.pe,2915.12,S31,Encargado de almacen,cambio_salario,2026-08-31,2026-09-02 12:19:32
+EMP-01243,Sofia Salazar,48415556,sofia.salazar1243@electrocasa.pe,1855.08,S28,Cajero,cambio_salario,2026-09-22,2026-09-23 10:24:46
+EMP-00098,Raul Flores,54949195,raul.flores98@electrocasa.pe,2391.89,S05,Vendedor,cambio_salario,2026-10-09,2026-10-14 10:55:06
+EMP-00309,Ricardo Quispe,76857587,ricardo.quispe309@electrocasa.pe,1878.53,S39,Vendedor,alta,2026-09-17,2026-09-19 14:52:28
+EMP-01336,Jorge Vargas,42296127,jorge.vargas1336@electrocasa.pe,1844.09,S35,Vendedor,cambio_salario,2026-10-21,2026-10-23 17:40:56
+EMP-00220,Karina Vargas,68158832,karina.vargas220@electrocasa.pe,2800.88,S08,Asesor de ventas,TRANSFERENCIA,2026-09-11,2026-09-11 15:39:51
+EMP-00584,Milagros Paredes,71325459,milagros.paredes584@electrocasa.pe,2465.85,S30,Cajero,cambio_salario,2026-09-23,2026-09-28 12:16:33
+EMP-01273,Hector Salazar,37061232,hector.salazar1273@electrocasa.pe,2724.52,S15,Vendedor,cambio_salario,2026-10-08,2026-10-13 08:07:29
+EMP-00491,Fernando Castillo,68537861,fernando.castillo491@electrocasa.pe,2462.31,S09,Asesor de ventas,cambio_salario,2026-09-17,2026-09-17 12:55:16
+EMP-01384,Diego Quispe,21608069,diego.quispe1384@electrocasa.pe,2426.79,S27,Vendedor,cambio_salario,2026-09-23,2026-09-25 10:48:50
+EMP-00212,Diego Alvarez,66379474,diego.alvarez212@electrocasa.pe,1737.77,S04,Vendedor,Transferencia,2026-10-05,2026-10-08 18:57:44
+EMP-00377,Hector Salazar,10097698,hector.salazar377@electrocasa.pe,1439.57,S04,Vendedor,baja,2026-09-26,2026-09-28 17:43:20
+EMP-01236,Ricardo Gutierrez,19386732,ricardo.gutierrez1236@electrocasa.pe,1468.03,S01,Vendedor,alta,2026-09-19,2026-09-22 14:06:34
+EMP-00887,Hector Flores,64887782,hector.flores887@electrocasa.pe,4349.97,S18,Supervisor de tienda,cambio_salario,2026-07-19,2026-10-07 18:15:00
+EMP-00174,Oscar Mamani,16561415,oscar.mamani174@electrocasa.pe,1689.72,S06,Vendedor,cambio_salario,2026-09-06,2026-09-08 10:46:40
+EMP-00120,Oscar Paredes,25123846,oscar.paredes120@electrocasa.pe,3427.03,S34,Supervisor de tienda,Cambio Salario,2026-09-18,2026-09-23 12:24:26
+EMP-00827,Carmen Vargas,31765471,carmen.vargas827@electrocasa.pe,2138.65,S21,Asesor de ventas,alta,2026-09-03,2026-09-04 11:28:02
+EMP-00357,Hector Chavez,37923938,hector.chavez357@electrocasa.pe,1870.63,S37,Vendedor,CAMBIO_SALARIO,2026-09-06,2026-09-06 18:24:49
+EMP-01194,Gabriela Salazar,31693583,gabriela.salazar1194@electrocasa.pe,1935.12,S33,Vendedor,cese,2026-09-22,2026-09-25 16:47:27
+EMP-00682,Milagros Rodriguez,18018272,milagros.rodriguez682@electrocasa.pe,2031.16,S37,Encargado de almacen,Baja,2026-10-26,2026-10-31 17:36:46
+EMP-00263,Lucia Vargas,64722278,lucia.vargas263@electrocasa.pe,1723.19,S40,Cajero,TRANSFERENCIA,2026-09-12,2026-09-12 18:33:53
+EMP-00627,Patricia Salazar,59625586,patricia.salazar627@electrocasa.pe,3621.4,S19,Supervisor de tienda,Cambio Salario,2026-10-20,2026-10-21 13:30:50
+EMP-01146,Patricia Espinoza,44015652,patricia.espinoza1146@electrocasa.pe,2136.09,S32,Vendedor,BAJA,2026-09-06,2026-09-10 12:06:59
+EMP-01061,Sofia Salazar,59594267,sofia.salazar1061@electrocasa.pe,2029.0,S01,Vendedor,alta,2026-09-19,2026-09-19 16:09:22
+EMP-00918,Miguel Vargas,54097685,miguel.vargas918@electrocasa.pe,2674.15,S14,Vendedor,CAMBIO_SALARIO,2026-10-23,2026-10-27 13:38:56
+EMP-01192,Carmen Rodriguez,56365351,carmen.rodriguez1192@electrocasa.pe,1780.06,S33,Vendedor,ALTA,2026-09-27,2026-10-01 11:13:10
+EMP-00665,Sofia Espinoza,20085888,sofia.espinoza665@electrocasa.pe,2135.08,S17,Vendedor,transferencia,2026-09-14,2026-09-18 10:07:31
+EMP-00653,Diego Torres,26590228,diego.torres653@electrocasa.pe,2756.62,S01,Encargado de almacen,CAMBIO_SALARIO,2026-09-11,2026-09-13 10:09:11
+EMP-00320,Fernando Mendoza,57582970,fernando.mendoza320@electrocasa.pe,1639.09,S35,Cajero,transferencia,2026-09-21,2026-09-24 12:20:48
+EMP-01330,Hector Torres,29739259,hector.torres1330@electrocasa.pe,3344.95,S32,Asesor de ventas,cambio_salario,2026-10-10,2026-10-13 13:04:09
+EMP-00086,Gabriela Castillo,39208108,gabriela.castillo86@electrocasa.pe,2249.51,S23,Vendedor,cambio_salario,2026-10-11,2026-10-15 15:11:36
+EMP-00183,Gabriela Flores,10547846,gabriela.flores183@electrocasa.pe,1802.76,S33,Vendedor,Cambio Salario,2026-09-22,2026-09-26 11:29:48
+EMP-00776,Hector Garcia,15099384,hector.garcia776@electrocasa.pe,2227.99,S06,Vendedor,Transferencia,2026-09-10,2026-09-12 09:38:46
+EMP-01286,Patricia Espinoza,27574878,patricia.espinoza1286@electrocasa.pe,2129.5,S28,Vendedor,ALTA,2026-09-19,2026-09-20 17:55:25
+EMP-00993,Sofia Rojas,78330521,sofia.rojas993@electrocasa.pe,1579.04,S30,Asesor de ventas,Baja,2026-09-30,2026-10-04 12:21:21
+EMP-00684,Fernando Rojas,29835102,fernando.rojas684@electrocasa.pe,2108.65,S25,Vendedor,Transferencia,2026-09-21,2026-09-22 17:05:55
+EMP-01063,Carlos Paredes,21682354,carlos.paredes1063@electrocasa.pe,1456.71,S26,Vendedor,transferencia,2026-09-07,2026-09-07 13:25:21
+EMP-00404,Sofia Flores,74553531,sofia.flores404@electrocasa.pe,2403.25,S24,Asesor de ventas,TRANSFERENCIA,2026-10-02,2026-10-07 16:39:59
+EMP-01310,Fernando Vargas,54486917,fernando.vargas1310@electrocasa.pe,3798.76,S39,Supervisor de tienda,baja,2026-10-05,2026-10-06 15:18:24
+EMP-00144,Rosa Gutierrez,34289808,rosa.gutierrez144@electrocasa.pe,2324.52,S35,Vendedor,cese,2026-10-28,2026-10-30 17:16:43
+EMP-00580,Ana Rojas,51732708,ana.rojas580@electrocasa.pe,2758.95,S18,Asesor de ventas,transferencia,2026-10-22,2026-10-27 08:39:12
+EMP-01102,Fernando Gutierrez,60793185,fernando.gutierrez1102@electrocasa.pe,1991.84,S18,Asesor de ventas,Alta,,2026-09-17 15:56:01
+EMP-00642,Gabriela Cordova,26807997,gabriela.cordova642@electrocasa.pe,1907.36,S36,Cajero,Baja,2026-09-04,2026-09-08 09:23:55
+EMP-00041,Diego Mamani,52746565,diego.mamani41@electrocasa.pe,1793.62,S06,Asesor de ventas,alta,2026-09-24,2026-09-25 10:05:32
+EMP-01385,Javier Gutierrez,38549693,javier.gutierrez1385@electrocasa.pe,4858.05,S17,Supervisor de tienda,Transferencia,2026-09-06,2026-09-07 12:24:18
+EMP-00145,Fernando Rojas,18784551,fernando.rojas145@electrocasa.pe,2055.48,S09,Vendedor,ALTA,2026-09-25,2026-09-28 12:27:52
+EMP-01227,Ana Flores,71867047,ana.flores1227@electrocasa.pe,2461.9,S16,Encargado de almacen,cambio_salario,2026-10-23,2026-10-26 12:23:48
+EMP-00233,Miguel Torres,60625937,miguel.torres233@electrocasa.pe,2294.86,S34,Vendedor,cambio_salario,2026-09-27,2026-09-28 13:35:33
+EMP-01127,Karina Castillo,38292625,karina.castillo1127@electrocasa.pe,1679.18,S30,Vendedor,Cambio Salario,2026-10-14,2026-10-18 14:17:02
+EMP-00271,Karina Mamani,71555306,karina.mamani271@electrocasa.pe,2175.06,S01,Cajero,CAMBIO_SALARIO,2026-10-30,2026-11-02 17:33:33
+EMP-00173,Oscar Huaman,27947886,oscar.huaman173@electrocasa.pe,1868.25,S13,Cajero,BAJA,2026-09-26,2026-10-01 15:30:00
+EMP-00088,Fernando Garcia,41475525,fernando.garcia88@electrocasa.pe,2250.35,S18,Encargado de almacen,BAJA,2026-09-26,2026-09-30 14:30:38
+EMP-01415,Hector Quispe,61422849,hector.quispe1415@electrocasa.pe,1466.67,S35,Vendedor,CAMBIO_SALARIO,2026-10-02,2026-10-04 15:44:16
+EMP-00131,Patricia Ramirez,65285913,patricia.ramirez131@electrocasa.pe,2250.96,S27,Vendedor,cambio_salario,2026-09-21,2026-09-22 17:22:51
+EMP-01414,Patricia Alvarez,20253369,patricia.alvarez1414@electrocasa.pe,2035.56,S28,Vendedor,transferencia,2026-09-16,2026-09-21 16:20:53
+EMP-00376,Daniela Rojas,38935708,daniela.rojas376@electrocasa.pe,2442.73,S32,Asesor de ventas,Transferencia,2026-09-10,2026-09-12 17:17:58
+EMP-00601,Patricia Huaman,72234966,patricia.huaman601@electrocasa.pe,2498.35,S01,Encargado de almacen,CAMBIO_SALARIO,2026-09-18,2026-09-20 08:53:05
+EMP-00858,Ana Gutierrez,63399397,ana.gutierrez858@electrocasa.pe,2023.07,S07,Vendedor,cese,2026-10-19,2026-10-22 17:37:59
+EMP-00537,Carlos Paredes,77418633,carlos.paredes537@electrocasa.pe,2557.16,S14,Asesor de ventas,TRANSFERENCIA,2026-09-05,2026-09-10 14:07:22
+EMP-00669,Hector Rojas,12910183,hector.rojas669@electrocasa.pe,1440.64,S07,Cajero,Baja,2026-08-29,2026-09-03 13:45:38
+EMP-01015,Ana Vargas,33606689,ana.vargas1015@electrocasa.pe,2163.4,S07,Asesor de ventas,CAMBIO_SALARIO,2026-09-19,2026-09-20 11:14:18
+EMP-01156,Milagros Castillo,44134772,milagros.castillo1156@electrocasa.pe,2121.89,S23,Asesor de ventas,BAJA,2026-10-04,2026-10-07 10:27:40
+EMP-01171,Daniela Rodriguez,60258650,daniela.rodriguez1171@electrocasa.pe,2045.68,S13,Cajero,Transferencia,2026-09-16,2026-09-20 09:42:07
+EMP-00822,Jorge Torres,68828638,jorge.torres822@electrocasa.pe,2427.67,S29,Vendedor,Cambio Salario,2026-10-11,2026-10-14 14:01:42
+EMP-00979,Milagros Cordova,40224588,milagros.cordova979@electrocasa.pe,2293.64,S39,Asesor de ventas,cambio_salario,2026-09-10,2026-09-12 16:56:33
+EMP-00142,Patricia Salazar,51240697,patricia.salazar142@electrocasa.pe,2478.12,S40,Vendedor,Cambio Salario,2026-10-03,2026-10-07 09:51:53
+EMP-01326,Javier Castillo,43486885,javier.castillo1326@electrocasa.pe,1419.15,S32,Cajero,transferencia,2026-09-25,2026-09-30 09:37:11
+EMP-00933,Rosa Alvarez,21433625,rosa.alvarez933@electrocasa.pe,1453.87,S27,Vendedor,TRANSFERENCIA,2026-09-01,2026-09-04 17:33:27
+EMP-01065,Diego Salazar,29414784,diego.salazar1065@electrocasa.pe,1862.53,S03,Vendedor,alta,2026-09-18,2026-09-18 17:54:14
+EMP-01230,Hector Flores,22523193,hector.flores1230@electrocasa.pe,2472.37,S23,Vendedor,cambio_salario,2026-08-10,2026-10-22 16:11:00
+EMP-00542,Ricardo Salazar,13693548,ricardo.salazar542@electrocasa.pe,1649.32,S25,Vendedor,Cambio Salario,2026-10-03,2026-10-03 16:12:45
+EMP-00987,Miguel Rojas,75028113,miguel.rojas987@electrocasa.pe,2492.6,S15,Vendedor,CAMBIO_SALARIO,2026-10-01,2026-10-06 13:34:06
+EMP-01335,Rosa Mamani,38431183,rosa.mamani1335@electrocasa.pe,2307.93,S30,Asesor de ventas,Alta,2026-09-29,2026-09-30 09:22:28
+EMP-01252,Patricia Garcia,76080278,patricia.garcia1252@electrocasa.pe,2269.96,S15,Asesor de ventas,CAMBIO_SALARIO,2026-10-27,2026-10-31 18:54:39
+EMP-00878,Lucia Flores,14082992,lucia.flores878@electrocasa.pe,2195.49,S31,Vendedor,TRANSFERENCIA,2026-09-15,2026-09-15 14:05:20
+EMP-01260,Carlos Flores,22390371,carlos.flores1260@electrocasa.pe,1837.05,S19,Vendedor,cambio_salario,2026-10-20,2026-10-25 11:12:52
+EMP-01401,Karina Chavez,44709280,karina.chavez1401@electrocasa.pe,4750.33,S38,Supervisor de tienda,cambio_salario,2026-10-09,2026-10-12 14:46:53
+EMP-00157,Oscar Rojas,21550556,oscar.rojas157@electrocasa.pe,6509.21,S31,Gerente de tienda,cambio_salario,2026-09-21,2026-09-25 12:07:28
+EMP-00181,Carmen Chavez,70192229,carmen.chavez181@electrocasa.pe,3105.81,S29,Asesor de ventas,cambio_salario,2026-09-07,2026-09-11 15:50:04
+EMP-00197,Oscar Cordova,67592087,oscar.cordova197@electrocasa.pe,1868.56,S39,Vendedor,transferencia,2026-09-22,2026-09-23 14:08:15
+EMP-01101,Ana Huaman,77348786,ana.huaman1101@electrocasa.pe,2434.8,S19,Asesor de ventas,transferencia,2026-10-01,2026-10-03 18:39:18
+EMP-01186,Rosa Flores,36276595,rosa.flores1186@electrocasa.pe,1727.49,S13,Vendedor,Transferencia,2026-06-30,2026-10-08 13:53:00
+EMP-00664,Carmen Torres,78860073,carmen.torres664@electrocasa.pe,2137.92,S08,Asesor de ventas,cambio_salario,2026-09-20,2026-09-22 14:54:05
+EMP-01349,Carmen Salazar,16132060,carmen.salazar1349@electrocasa.pe,1714.64,S28,Vendedor,Cambio Salario,2026-09-13,2026-09-14 13:14:01
+EMP-01453,Milagros Vargas,25732934,milagros.vargas1453@electrocasa.pe,1941.83,S34,Vendedor,ALTA,2026-09-03,2026-09-06 10:46:31
+EMP-00069,Fernando Torres,56680026,fernando.torres69@electrocasa.pe,2017.32,S01,Encargado de almacen,transferencia,2026-10-22,2026-10-23 11:48:21
+EMP-00134,Javier Chavez,14279107,javier.chavez134@electrocasa.pe,2627.23,S11,Asesor de ventas,transferencia,2026-10-18,2026-10-21 08:41:02
+EMP-00921,Oscar Gutierrez,18234654,oscar.gutierrez921@electrocasa.pe,2093.63,S18,Asesor de ventas,alta,2026-09-08,2026-09-13 11:36:05
+EMP-00222,Hector Castillo,,hector.castillo222@electrocasa.pe,5835.34,S02,Supervisor de tienda,cambio_salario,2026-10-17,2026-10-22 18:00:10
+EMP-00178,Rosa Castillo,67942704,rosa.castillo178@electrocasa.pe,2825.99,S16,Asesor de ventas,Cambio Salario,2026-10-08,2026-10-13 16:07:28
+EMP-01044,Oscar Ccahuana,31540427,oscar.ccahuana1044@electrocasa.pe,2958.36,S32,Encargado de almacen,Cambio Salario,2026-09-21,2026-09-21 11:59:57
+EMP-01049,Patricia Flores,13163164,patricia.flores1049@electrocasa.pe,1612.82,S13,Vendedor,Cambio Salario,2026-10-06,2026-10-11 15:19:31
+EMP-00787,Lucia Quispe,50740826,lucia.quispe787@electrocasa.pe,1629.55,S07,Vendedor,alta,2026-09-03,2026-09-06 10:56:02
+EMP-01442,Fernando Ramirez,46736959,fernando.ramirez1442@electrocasa.pe,2089.6,S13,Cajero,CAMBIO_SALARIO,2026-09-02,2026-09-04 15:39:44
+EMP-00538,Carlos Ccahuana,53627421,carlos.ccahuana538@electrocasa.pe,1662.9,S32,Vendedor,transferencia,2026-09-25,2026-09-26 11:52:21
+EMP-01125,Carlos Chavez,70572301,carlos.chavez1125@electrocasa.pe,1551.05,S10,Vendedor,ALTA,2026-09-04,2026-09-08 14:34:55
+EMP-00285,Miguel Ccahuana,59023016,miguel.ccahuana285@electrocasa.pe,1653.22,S09,Vendedor,CAMBIO_SALARIO,2026-10-16,2026-10-18 11:53:29
+EMP-00306,Carmen Mendoza,24167539,carmen.mendoza306@electrocasa.pe,2289.58,S20,Vendedor,CAMBIO_SALARIO,2026-09-14,2026-09-15 08:58:57
+EMP-01112,Diego Mendoza,54364689,diego.mendoza1112@electrocasa.pe,2115.37,S10,Asesor de ventas,Transferencia,2026-09-04,2026-09-08 08:37:51
+EMP-00202,Lucia Quispe,41003202,lucia.quispe202@electrocasa.pe,1922.66,S20,Vendedor,cambio_salario,2026-10-06,2026-10-09 12:02:21
+EMP-00753,Daniela Castillo,65961066,daniela.castillo753@electrocasa.pe,2548.91,S12,Vendedor,cambio_salario,2026-10-10,2026-10-11 13:40:45
+EMP-01176,Rosa Castillo,45197811,rosa.castillo1176@electrocasa.pe,1943.38,S13,Vendedor,cese,2026-10-18,2026-10-19 09:27:06
+EMP-00613,Jorge Chavez,79184469,jorge.chavez613@electrocasa.pe,2339.42,S31,Vendedor,Baja,2026-09-18,2026-09-23 08:09:41
+EMP-00800,Daniela Quispe,77663882,daniela.quispe800@electrocasa.pe,1619.07,S03,Vendedor,cambio_salario,2026-09-23,2026-09-28 10:48:01
+EMP-01474,Sofia Paredes,31630494,sofia.paredes1474@electrocasa.pe,2570.17,S37,Vendedor,baja,2026-09-22,2026-09-27 15:56:38
+EMP-00180,Hector Huaman,23433279,hector.huaman180@electrocasa.pe,1820.3,S39,Vendedor,BAJA,2026-09-05,2026-09-05 10:24:34
+EMP-01262,Carlos Salazar,66443415,carlos.salazar1262@electrocasa.pe,3420.01,S01,Asesor de ventas,Cambio Salario,2026-09-13,2026-09-13 15:11:54
+EMP-00801,Valeria Alvarez,75376184,valeria.alvarez801@electrocasa.pe,1414.29,S32,Vendedor,Transferencia,2026-10-09,2026-10-11 17:02:37
+EMP-01405,Luis Ramirez,12679172,luis.ramirez1405@electrocasa.pe,1315.22,S25,Vendedor,Alta,2026-08-31,2026-09-01 08:18:07
+EMP-00901,Sofia Ramirez,56128114,sofia.ramirez901@electrocasa.pe,2433.05,S26,Vendedor,CAMBIO_SALARIO,2026-09-10,2026-09-12 14:32:15
+EMP-00322,Lucia Flores,28686878,lucia.flores322@electrocasa.pe,1886.2,S30,Vendedor,cambio_salario,2026-09-10,2026-09-15 14:09:33
+EMP-01064,Karina Quispe,78322312,karina.quispe1064@electrocasa.pe,3270.95,S01,Encargado de almacen,CAMBIO_SALARIO,2026-09-04,2026-09-04 10:13:21
+EMP-01342,Miguel Cordova,17398030,miguel.cordova1342@electrocasa.pe,2000.53,S21,Vendedor,cambio_salario,2026-10-02,2026-10-07 16:39:22
+EMP-00217,Carmen Cordova,14985999,carmen.cordova217@electrocasa.pe,2020.5,S29,Vendedor,CAMBIO_SALARIO,2026-10-07,2026-10-11 10:11:53
+EMP-00001,Gabriela Mamani,22108722,gabriela.mamani1@electrocasa.pe,3058.0,S37,Encargado de almacen,cambio_salario,2026-09-07,2026-09-09 08:39:04
+EMP-01278,Karina Cordova,29749803,karina.cordova1278@electrocasa.pe,1636.53,S24,Vendedor,cambio_salario,2026-09-12,2026-09-12 14:22:42
+EMP-00243,Raul Flores,18375874,raul.flores243@electrocasa.pe,2011.57,S11,Asesor de ventas,ALTA,2026-09-19,2026-09-21 13:25:53
+EMP-00449,Miguel Gutierrez,54575673,miguel.gutierrez449@electrocasa.pe,2298.0,S20,Vendedor,transferencia,2026-10-26,2026-10-30 12:08:06
+EMP-01466,Carmen Rodriguez,10378211,carmen.rodriguez1466@electrocasa.pe,2306.82,S09,Vendedor,cese,2026-09-21,2026-09-25 08:24:07
+EMP-00609,Patricia Paredes,20210316,patricia.paredes609@electrocasa.pe,1727.64,S22,Vendedor,cambio_salario,2026-10-13,2026-10-15 08:56:25
+EMP-01180,Sofia Gutierrez,77502877,sofia.gutierrez1180@electrocasa.pe,2091.63,S16,Vendedor,Alta,2026-09-04,2026-09-06 13:36:42
+EMP-00768,Rosa Ramirez,46404112,rosa.ramirez768@electrocasa.pe,2659.41,S18,Vendedor,Cambio Salario,2026-10-25,2026-10-30 08:10:45
+EMP-00765,Carmen Huaman,49712794,carmen.huaman765@electrocasa.pe,5198.36,S35,Gerente de tienda,Transferencia,2026-09-29,2026-09-30 14:04:09
+EMP-00071,Milagros Gutierrez,41043325,milagros.gutierrez71@electrocasa.pe,2398.58,S31,Vendedor,cambio_salario,2026-10-21,2026-10-25 18:00:45
+EMP-00288,Jorge Rojas,25611021,jorge.rojas288@electrocasa.pe,2027.92,S29,Encargado de almacen,CAMBIO_SALARIO,2026-10-18,2026-10-22 17:09:12
+EMP-00026,Milagros Ramirez,76539360,milagros.ramirez26@electrocasa.pe,2101.61,S39,Vendedor,cambio_salario,2026-10-01,2026-10-06 14:46:14
+EMP-00706,Valeria Castillo,70448455,valeria.castillo706@electrocasa.pe,2163.3,S37,Asesor de ventas,BAJA,2026-09-08,2026-09-12 18:53:39
+EMP-00578,Miguel Huaman,52622152,miguel.huaman578@electrocasa.pe,1692.07,S38,Cajero,cambio_salario,2026-09-20,2026-09-20 11:51:19
+EMP-00068,Lucia Cordova,49908973,lucia.cordova68@electrocasa.pe,1956.79,S32,Asesor de ventas,alta,2026-09-07,2026-09-11 08:39:44
+EMP-00819,Sofia Ccahuana,67758925,sofia.ccahuana819@electrocasa.pe,3095.94,S33,Encargado de almacen,cese,2026-10-21,2026-10-22 13:04:23
+EMP-01411,Hector Mamani,35809428,hector.mamani1411@electrocasa.pe,2244.44,S32,Vendedor,cambio_salario,2026-09-22,2026-09-26 14:36:08
+EMP-01000,Raul Vargas,39644662,raul.vargas1000@electrocasa.pe,2100.46,S39,Asesor de ventas,baja,2026-10-02,2026-10-06 18:09:28
+EMP-00848,Ana Vargas,59893926,ana.vargas848@electrocasa.pe,4099.92,S20,Supervisor de tienda,ALTA,2026-09-25,2026-09-25 13:30:23
+EMP-00256,Ana Chavez,34128813,ana.chavez256@electrocasa.pe,5487.19,S30,Supervisor de tienda,CAMBIO_SALARIO,2026-09-02,2026-09-07 13:04:17
+EMP-01186,Rosa Flores,36276595,rosa.flores1186@electrocasa.pe,1857.19,S13,Vendedor,cambio_salario,2026-10-31,2026-11-01 10:02:15
+EMP-00375,Carlos Ccahuana,32974912,carlos.ccahuana375@electrocasa.pe,2143.96,S05,Asesor de ventas,cambio_salario,2026-09-18,2026-09-22 15:12:44
+EMP-00967,Ricardo Alvarez,48909818,ricardo.alvarez967@electrocasa.pe,2265.02,S08,Vendedor,CAMBIO_SALARIO,2026-08-30,2026-09-02 18:28:32
+EMP-01312,Carmen Salazar,27355840,carmen.salazar1312@electrocasa.pe,2121.48,S14,Cajero,cese,2026-10-03,2026-10-06 15:20:19
+EMP-01377,Rosa Garcia,13716543,rosa.garcia1377@electrocasa.pe,2602.79,S02,Encargado de almacen,TRANSFERENCIA,2026-09-20,2026-09-22 14:39:04
+EMP-00106,Sofia Gutierrez,38004859,sofia.gutierrez106@electrocasa.pe,1513.91,S34,Cajero,Cambio Salario,2026-09-27,2026-09-30 12:26:32
+EMP-00647,Ricardo Espinoza,75114126,ricardo.espinoza647@electrocasa.pe,1752.05,S18,Cajero,cambio_salario,2026-09-22,2026-09-23 15:43:55
+EMP-01258,Karina Mendoza,62424560,karina.mendoza1258@electrocasa.pe,2365.5,S06,Vendedor,TRANSFERENCIA,2026-09-16,2026-09-19 18:35:25
+EMP-00545,Ricardo Espinoza,61951119,ricardo.espinoza545@electrocasa.pe,1819.94,S20,Vendedor,Transferencia,2026-10-10,2026-10-12 18:06:09
+EMP-00307,Carmen Cordova,37244493,carmen.cordova307@electrocasa.pe,2028.99,S16,Encargado de almacen,CAMBIO_SALARIO,2026-09-30,2026-09-30 14:46:32
+EMP-00872,Rosa Salazar,59540808,rosa.salazar872@electrocasa.pe,2050.49,S31,Vendedor,cambio_salario,,2026-10-06 09:09:52
+EMP-00467,Milagros Castillo,62719918,milagros.castillo467@electrocasa.pe,1382.48,S24,Vendedor,Cambio Salario,2026-08-30,2026-09-03 18:21:54
+EMP-00502,Miguel Huaman,78348948,miguel.huaman502@electrocasa.pe,1800.99,S40,Vendedor,Transferencia,2026-10-12,2026-10-17 09:06:50
+EMP-00793,Javier Cordova,64499579,javier.cordova793@electrocasa.pe,2820.6,S33,Asesor de ventas,CAMBIO_SALARIO,2026-10-18,2026-10-21 11:44:38
+EMP-01032,Raul Salazar,47966278,raul.salazar1032@electrocasa.pe,1640.79,S30,Cajero,ALTA,2026-09-25,2026-09-26 18:36:23
+EMP-00974,Luis Alvarez,13899873,luis.alvarez974@electrocasa.pe,2461.81,S06,Vendedor,cambio_salario,2026-09-21,2026-09-25 08:30:52
+EMP-00860,Ricardo Alvarez,10732284,ricardo.alvarez860@electrocasa.pe,2640.08,S06,Encargado de almacen,transferencia,2026-09-26,2026-09-28 11:25:56
+EMP-01392,Diego Quispe,26851586,diego.quispe1392@electrocasa.pe,3220.67,S38,Encargado de almacen,Transferencia,2026-10-12,2026-10-17 11:21:01
+EMP-01220,Milagros Castillo,26748047,milagros.castillo1220@electrocasa.pe,2257.21,S16,Vendedor,transferencia,2026-09-04,2026-09-08 18:04:12
+EMP-00749,Carlos Chavez,31314250,carlos.chavez749@electrocasa.pe,2190.05,S28,Asesor de ventas,cambio_salario,2026-10-14,2026-10-16 10:20:21
+EMP-01143,Rosa Paredes,57178793,rosa.paredes1143@electrocasa.pe,2384.17,S18,Vendedor,cambio_salario,2026-10-22,2026-10-22 16:38:59
+EMP-00158,Rosa Mamani,,rosa.mamani158@electrocasa.pe,3593.54,S13,Supervisor de tienda,CAMBIO_SALARIO,2026-08-30,2026-09-03 15:19:08
+EMP-00695,Gabriela Rojas,41399653,gabriela.rojas695@electrocasa.pe,2378.54,S36,Encargado de almacen,Alta,2026-09-04,2026-09-08 12:57:51
+EMP-01062,Valeria Mendoza,51172371,valeria.mendoza1062@electrocasa.pe,2397.99,S11,Encargado de almacen,Transferencia,2026-09-07,2026-09-08 15:33:05
+EMP-00784,Hector Mamani,,hector.mamani784@electrocasa.pe,1586.81,S27,Cajero,TRANSFERENCIA,2026-10-21,2026-10-23 13:52:49
+EMP-01106,Lucia Espinoza,39416146,lucia.espinoza1106@electrocasa.pe,2100.91,S07,Vendedor,ALTA,2026-09-09,2026-09-09 08:44:09
+EMP-00739,Luis Cordova,52277474,luis.cordova739@electrocasa.pe,2621.92,S37,Asesor de ventas,BAJA,2026-10-02,2026-10-05 15:48:05
+EMP-00037,Javier Garcia,11304395,javier.garcia37@electrocasa.pe,2314.91,S19,Vendedor,Cambio Salario,2026-09-10,2026-09-14 10:37:35
+EMP-00260,Daniela Vargas,38853706,daniela.vargas260@electrocasa.pe,1513.68,S39,Vendedor,cambio_salario,2026-06-21,2026-10-13 17:28:00
+EMP-01030,Ricardo Alvarez,33916096,ricardo.alvarez1030@electrocasa.pe,2422.55,S04,Encargado de almacen,Alta,2026-09-08,2026-09-10 10:03:11
+EMP-01325,Ana Mendoza,23552977,ana.mendoza1325@electrocasa.pe,2275.84,S40,Vendedor,Cambio Salario,2026-09-17,2026-09-21 12:47:18
+EMP-00690,Jorge Mendoza,65882263,jorge.mendoza690@electrocasa.pe,4742.58,S27,Supervisor de tienda,CAMBIO_SALARIO,2026-09-18,2026-09-22 14:44:14
+EMP-00904,Fernando Rojas,67083480,fernando.rojas904@electrocasa.pe,2251.93,S06,Asesor de ventas,Baja,2026-08-29,2026-09-01 17:13:44
+EMP-01174,Carlos Cordova,77052357,carlos.cordova1174@electrocasa.pe,2164.4,S33,Asesor de ventas,Transferencia,2026-09-05,2026-09-10 15:25:43
+EMP-00273,Diego Castillo,42729664,diego.castillo273@electrocasa.pe,1750.84,S03,Vendedor,Transferencia,2026-10-11,2026-10-13 11:43:27
+EMP-01495,Diego Huaman,52238249,diego.huaman1495@electrocasa.pe,2395.57,S03,Vendedor,cambio_salario,2026-10-27,2026-11-01 18:44:58
+EMP-00153,Patricia Chavez,32551146,patricia.chavez153@electrocasa.pe,2741.14,S22,Asesor de ventas,cambio_salario,2026-09-15,2026-09-18 18:14:56
+EMP-00091,Luis Cordova,48114731,luis.cordova91@electrocasa.pe,1815.24,S12,Vendedor,alta,2026-09-03,2026-09-06 13:58:48
+EMP-00417,Jorge Flores,52395331,jorge.flores417@electrocasa.pe,1386.85,S33,Vendedor,BAJA,2026-09-04,2026-09-07 15:19:02
+EMP-01365,Carlos Chavez,60453822,carlos.chavez1365@electrocasa.pe,2905.5,S17,Vendedor,CAMBIO_SALARIO,2026-10-24,2026-10-29 12:40:23
+EMP-01165,Lucia Ccahuana,10794373,lucia.ccahuana1165@electrocasa.pe,1863.85,S12,Vendedor,BAJA,2026-09-20,2026-09-24 10:10:08
+EMP-00897,Valeria Torres,72092975,valeria.torres897@electrocasa.pe,1673.56,S24,Vendedor,CAMBIO_SALARIO,2026-10-17,2026-10-22 13:45:47
+EMP-00165,Valeria Quispe,10014445,valeria.quispe165@electrocasa.pe,1590.24,S18,Vendedor,Baja,2026-09-06,2026-09-06 15:03:13
+EMP-00533,Javier Flores,54822091,javier.flores533@electrocasa.pe,1481.33,S16,Vendedor,Cambio Salario,2026-10-16,2026-10-18 11:50:18
+EMP-00953,Raul Rodriguez,32840723,raul.rodriguez953@electrocasa.pe,1995.82,S13,Encargado de almacen,TRANSFERENCIA,2026-09-30,2026-10-04 14:55:28
+EMP-01362,Diego Vargas,75522522,diego.vargas1362@electrocasa.pe,1901.32,S11,Vendedor,alta,2026-09-07,2026-09-08 08:30:17
+EMP-01118,Carlos Paredes,41067128,carlos.paredes1118@electrocasa.pe,2974.48,S15,Asesor de ventas,Cambio Salario,2026-09-28,2026-10-03 10:54:05
+EMP-01332,Raul Castillo,72024213,raul.castillo1332@electrocasa.pe,1718.54,S08,Vendedor,CAMBIO_SALARIO,2026-09-19,2026-09-22 16:49:34
+EMP-00567,Jorge Alvarez,19396342,jorge.alvarez567@electrocasa.pe,2161.26,S30,Vendedor,cambio_salario,2026-10-03,2026-10-08 12:55:51
+EMP-00484,Karina Huaman,78333927,karina.huaman484@electrocasa.pe,2264.41,S14,Vendedor,CAMBIO_SALARIO,2026-10-11,2026-10-13 18:43:19
+EMP-00687,Oscar Ramirez,48531949,oscar.ramirez687@electrocasa.pe,1720.46,S15,Cajero,BAJA,2026-10-26,2026-10-30 12:23:01
+EMP-01369,Javier Flores,20858721,javier.flores1369@electrocasa.pe,1716.77,S05,Vendedor,CAMBIO_SALARIO,2026-10-31,2026-11-05 18:03:44
+EMP-00755,Miguel Gutierrez,51129302,miguel.gutierrez755@electrocasa.pe,2349.62,S24,Vendedor,cambio_salario,2026-08-28,2026-09-01 18:04:30
+EMP-00569,Karina Torres,69431513,karina.torres569@electrocasa.pe,1816.12,S06,Asesor de ventas,TRANSFERENCIA,2026-10-14,2026-10-14 10:49:28
+EMP-00312,Karina Huaman,53990849,karina.huaman312@electrocasa.pe,2048.11,S29,Vendedor,Cambio Salario,2026-09-05,2026-09-07 18:45:18
+EMP-00372,Luis Alvarez,73141805,luis.alvarez372@electrocasa.pe,1928.06,S14,Cajero,TRANSFERENCIA,2026-09-26,2026-09-27 18:46:51
+EMP-01266,Milagros Mendoza,45174697,milagros.mendoza1266@electrocasa.pe,3194.16,S28,Supervisor de tienda,Cambio Salario,2026-10-26,2026-10-26 18:50:52
+EMP-00806,Karina Cordova,36043315,karina.cordova806@electrocasa.pe,2213.77,S08,Asesor de ventas,Transferencia,2026-09-15,2026-09-17 08:38:58
+EMP-00300,Ana Flores,29490133,ana.flores300@electrocasa.pe,2777.85,S39,Asesor de ventas,cambio_salario,2026-10-22,2026-10-24 16:37:09
+EMP-01188,Valeria Quispe,79681020,valeria.quispe1188@electrocasa.pe,1939.72,S22,Cajero,transferencia,2026-09-21,2026-09-25 16:37:21
+EMP-01124,Gabriela Castillo,44784076,gabriela.castillo1124@electrocasa.pe,8780.02,S36,Gerente de tienda,cambio_salario,2026-08-11,2026-10-27 09:10:00
+EMP-00208,Ana Mamani,25800531,ana.mamani208@electrocasa.pe,1484.84,S18,Cajero,CAMBIO_SALARIO,2026-09-18,2026-09-19 09:17:25
+EMP-01093,Hector Rojas,66797636,hector.rojas1093@electrocasa.pe,2842.26,S17,Asesor de ventas,baja,2026-09-27,2026-09-29 15:29:36
+EMP-00650,Valeria Mamani,40517592,valeria.mamani650@electrocasa.pe,2376.67,S09,Asesor de ventas,Alta,2026-08-27,2026-09-01 11:58:57
+EMP-01081,Javier Mendoza,24894424,javier.mendoza1081@electrocasa.pe,1972.06,S21,Asesor de ventas,cambio_salario,2026-09-23,2026-09-28 11:49:36
+EMP-00282,Hector Flores,76370010,hector.flores282@electrocasa.pe,1711.78,S27,Vendedor,cambio_salario,2026-10-07,2026-10-08 16:07:48
+EMP-01303,Rosa Paredes,64751472,rosa.paredes1303@electrocasa.pe,1201.85,S24,Cajero,Transferencia,2026-10-28,2026-10-31 17:12:26
+EMP-00466,Hector Paredes,72867478,hector.paredes466@electrocasa.pe,3659.38,S17,Supervisor de tienda,CAMBIO_SALARIO,2026-10-17,2026-10-20 15:52:01
+EMP-00791,Luis Ramirez,10478271,luis.ramirez791@electrocasa.pe,2500.1,S40,Asesor de ventas,Transferencia,2026-09-11,2026-09-13 12:22:25
+EMP-00053,Sofia Ramirez,15727124,sofia.ramirez53@electrocasa.pe,1660.63,S18,Vendedor,cambio_salario,2026-09-15,2026-09-17 16:11:48
+EMP-01454,Oscar Chavez,10195350,oscar.chavez1454@electrocasa.pe,1647.92,S10,Cajero,transferencia,2026-10-29,2026-11-03 10:40:45
+EMP-00711,Carlos Paredes,76567162,carlos.paredes711@electrocasa.pe,1538.83,S21,Vendedor,CAMBIO_SALARIO,2026-10-11,2026-10-14 13:37:17
+EMP-00873,Raul Torres,69190906,raul.torres873@electrocasa.pe,1507.43,S38,Vendedor,CAMBIO_SALARIO,2026-09-04,2026-09-07 09:37:25
+EMP-00172,Karina Castillo,54029535,karina.castillo172@electrocasa.pe,5258.43,S14,Supervisor de tienda,cambio_salario,2026-09-28,2026-10-01 08:50:08
+EMP-00663,Valeria Garcia,25283762,valeria.garcia663@electrocasa.pe,2508.66,S08,Asesor de ventas,Transferencia,2026-09-25,2026-09-27 09:24:06
+EMP-01429,Ricardo Rodriguez,57432773,ricardo.rodriguez1429@electrocasa.pe,1498.29,S32,Cajero,CAMBIO_SALARIO,2026-10-02,2026-10-05 15:16:13
+EMP-01239,Carmen Gutierrez,69452333,carmen.gutierrez1239@electrocasa.pe,2395.03,S30,Vendedor,CAMBIO_SALARIO,2026-10-31,2026-10-31 17:12:31
+EMP-01324,Jorge Chavez,45297591,jorge.chavez1324@electrocasa.pe,1597.24,S03,Vendedor,TRANSFERENCIA,2026-09-11,2026-09-13 14:47:53
+EMP-00391,Carmen Paredes,76941216,carmen.paredes391@electrocasa.pe,2161.15,S10,Asesor de ventas,Cambio Salario,2026-09-16,2026-09-17 09:51:04
+EMP-00853,Daniela Rodriguez,48197851,daniela.rodriguez853@electrocasa.pe,2706.18,S04,Vendedor,CAMBIO_SALARIO,2026-09-16,2026-09-19 17:19:14
+EMP-00671,Miguel Espinoza,31918329,miguel.espinoza671@electrocasa.pe,1499.75,S05,Vendedor,cese,2026-10-22,2026-10-25 08:11:37
+EMP-00500,Gabriela Quispe,24078566,gabriela.quispe500@electrocasa.pe,2079.17,S14,Vendedor,CAMBIO_SALARIO,2026-09-03,2026-09-04 14:27:56
+EMP-01077,Jorge Flores,28147179,jorge.flores1077@electrocasa.pe,1692.3,S07,Vendedor,Transferencia,2026-10-18,2026-10-22 13:15:16
+EMP-01119,Lucia Garcia,76644619,lucia.garcia1119@electrocasa.pe,2367.04,S04,Encargado de almacen,alta,2026-09-24,2026-09-25 12:51:57
+EMP-00839,Milagros Ramirez,,milagros.ramirez839@electrocasa.pe,2972.34,S02,Encargado de almacen,CAMBIO_SALARIO,2026-10-22,2026-10-27 14:33:52
+EMP-00526,Sofia Rodriguez,34615499,sofia.rodriguez526@electrocasa.pe,2273.45,S26,Asesor de ventas,transferencia,2026-10-08,2026-10-12 09:50:32
