@@ -1,0 +1,16 @@
+fuente: sucursales
+responsable: area_operaciones
+llegada: archivo CSV único en /Volumes/<catalogo>/default/vol_landing/sucursales/
+frecuencia_esperada: unica
+llave: sucursal_id
+columnas:
+  - nombre: sucursal_id
+    tipo: string
+    nulo: false
+reglas_de_calidad:
+  - nombre: llave_no_nula
+    condicion: "sucursal_id IS NOT NULL"
+    politica: drop
+    destino_rechazos: silver.cuarentena
+problemas_conocidos:
+  - "<completar según exploración de Bronze>"

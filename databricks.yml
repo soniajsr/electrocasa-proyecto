@@ -1,0 +1,31 @@
+bundle:
+  name: electrocasa-proyecto
+
+include:
+  - resources/*.yml
+
+variables:
+  catalogo:
+    description: Catálogo de Unity Catalog por entorno
+    default: electrocasa_dev
+  warehouse_id:
+    description: ID del SQL Warehouse Serverless para tareas de validación
+    default: "<COMPLETAR_WAREHOUSE_ID>"
+  tracking_pipeline_id:
+    description: ID del pipeline de Lakeflow Connect para Tracking de Envíos
+    default: "<COMPLETAR_TRACKING_PIPELINE_ID>"
+  notification_email:
+    description: Correo electrónico real para alertas y fallos del job
+    default: "<COMPLETAR_TU_CORREO>"
+
+targets:
+  dev:
+    mode: development
+    default: true
+    variables:
+      catalogo: electrocasa_dev
+
+  prod:
+    mode: production
+    variables:
+      catalogo: electrocasa_prod

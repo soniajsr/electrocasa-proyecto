@@ -1,0 +1,37 @@
+resources:
+  jobs:
+    electrocasa_job:
+      name: "[${bundle.target}] electrocasa_orquestacion_job"
+      max_concurrent_runs: 1
+      email_notifications:
+        on_failure:
+          - ${var.notification_email}
+      trigger:
+        pause_status: PAUSED
+        file_arrival:
+          url: /Volumes/${var.catalogo}/default/vol_landing/
+          min_time_between_triggers_seconds: 300
+      tasks:
+        - task_key: ingesta_tracking_azuresql
+          pipeline_task:
+            pipeline_id: ${var.tracking_pipeline_id}
+          max_retries: 2
+          min_retry_interval_millis: 30000
+
+        - task_key: pipeline_medallion_electrocasa
+          depends_on:
+            - task_key: ingesta_tracking_azuresql
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.electrocasa_medallion_pipeline.id}
+          max_retries: 1
+          min_retry_interval_millis: 30000
+
+        - task_key: validacion_y_conteos
+          depends_on:
+            - task_key: pipeline_medallion_electrocasa
+          notebook_task:
+            notebook_path: ../notebooks/01_validacion_calidad.ipynb
+            base_parameters:
+              catalogo: ${var.catalogo}
+          max_retries: 1
+          min_retry_interval_millis: 15000

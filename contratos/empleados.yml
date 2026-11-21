@@ -1,0 +1,16 @@
+fuente: empleados
+responsable: area_rrhh
+llegada: archivos CSV de eventos en /Volumes/<catalogo>/default/vol_landing/empleados/
+frecuencia_esperada: mensual
+llave: id_empleado
+columnas:
+  - nombre: id_empleado
+    tipo: string
+    nulo: false
+reglas_de_calidad:
+  - nombre: llave_no_nula
+    condicion: "id_empleado IS NOT NULL"
+    politica: drop
+    destino_rechazos: silver.cuarentena
+problemas_conocidos:
+  - "<completar según exploración de Bronze>"

@@ -1,0 +1,16 @@
+fuente: resenas
+responsable: atencion_cliente
+llegada: archivos JSON Lines en /Volumes/<catalogo>/default/vol_landing/resenas/
+frecuencia_esperada: mensual
+llave: resena_id
+columnas:
+  - nombre: resena_id
+    tipo: string
+    nulo: false
+reglas_de_calidad:
+  - nombre: llave_no_nula
+    condicion: "resena_id IS NOT NULL"
+    politica: drop
+    destino_rechazos: silver.cuarentena
+problemas_conocidos:
+  - "<completar según exploración de Bronze>"

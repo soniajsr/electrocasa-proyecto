@@ -1,0 +1,16 @@
+fuente: tracking_envios
+responsable: logistica_courier
+llegada: tabla Azure SQL dbo.TrackingEnvios vía Lakeflow Connect
+frecuencia_esperada: incremental
+llave: evento_id
+columnas:
+  - nombre: evento_id
+    tipo: string
+    nulo: false
+reglas_de_calidad:
+  - nombre: llave_no_nula
+    condicion: "evento_id IS NOT NULL"
+    politica: drop
+    destino_rechazos: silver.cuarentena
+problemas_conocidos:
+  - "<completar según exploración de Bronze>"

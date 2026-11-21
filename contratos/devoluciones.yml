@@ -1,0 +1,16 @@
+fuente: devoluciones
+responsable: area_postventa
+llegada: archivos CSV por lote en /Volumes/<catalogo>/default/vol_landing/devoluciones/
+frecuencia_esperada: mensual
+llave: devolucion_id
+columnas:
+  - nombre: devolucion_id
+    tipo: string
+    nulo: false
+reglas_de_calidad:
+  - nombre: llave_no_nula
+    condicion: "devolucion_id IS NOT NULL"
+    politica: drop
+    destino_rechazos: silver.cuarentena
+problemas_conocidos:
+  - "<completar según exploración de Bronze>"

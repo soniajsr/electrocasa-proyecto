@@ -1,0 +1,53 @@
+resources:
+  pipelines:
+    electrocasa_medallion_pipeline:
+      name: "[${bundle.target}] electrocasa_medallion_pipeline"
+      catalog: ${var.catalogo}
+      target: silver
+      serverless: true
+      continuous: false
+      channel: CURRENT
+      libraries:
+        - file:
+            path: ../src/electrocasa/transformations/bronze/ventas.py
+        - file:
+            path: ../src/electrocasa/transformations/bronze/catalogo.py
+        - file:
+            path: ../src/electrocasa/transformations/bronze/empleados.py
+        - file:
+            path: ../src/electrocasa/transformations/bronze/resenas.py
+        - file:
+            path: ../src/electrocasa/transformations/bronze/devoluciones.py
+        - file:
+            path: ../src/electrocasa/transformations/bronze/sucursales.py
+        - file:
+            path: ../src/electrocasa/transformations/silver/sucursales.py
+        - file:
+            path: ../src/electrocasa/transformations/silver/catalogo.py
+        - file:
+            path: ../src/electrocasa/transformations/silver/ventas.py
+        - file:
+            path: ../src/electrocasa/transformations/silver/devoluciones.py
+        - file:
+            path: ../src/electrocasa/transformations/silver/empleados.py
+        - file:
+            path: ../src/electrocasa/transformations/silver/resenas.py
+        - file:
+            path: ../src/electrocasa/transformations/silver/tracking_envios.py
+        - file:
+            path: ../src/electrocasa/transformations/silver/cuarentena.py
+        - file:
+            path: ../src/electrocasa/transformations/gold/ventas_sucursal_mes.py
+        - file:
+            path: ../src/electrocasa/transformations/gold/top_productos.py
+        - file:
+            path: ../src/electrocasa/transformations/gold/dotacion_mensual.py
+        - file:
+            path: ../src/electrocasa/transformations/gold/ventas_vendedor.py
+        - file:
+            path: ../src/electrocasa/transformations/gold/resenas_categoria.py
+        - file:
+            path: ../src/electrocasa/transformations/gold/despachos_courier.py
+      configuration:
+        electrocasa.catalogo: ${var.catalogo}
+        electrocasa.landing_path: /Volumes/${var.catalogo}/default/vol_landing

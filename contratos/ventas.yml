@@ -1,0 +1,16 @@
+fuente: ventas
+responsable: area_comercial
+llegada: archivos CSV por lote en /Volumes/<catalogo>/default/vol_landing/ventas/
+frecuencia_esperada: mensual
+llave: venta_id
+columnas:
+  - nombre: venta_id
+    tipo: string
+    nulo: false
+reglas_de_calidad:
+  - nombre: llave_no_nula
+    condicion: "venta_id IS NOT NULL"
+    politica: drop
+    destino_rechazos: silver.cuarentena
+problemas_conocidos:
+  - "<completar según exploración de Bronze>"
