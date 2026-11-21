@@ -7,10 +7,33 @@ columnas:
   - nombre: resena_id
     tipo: string
     nulo: false
+  - nombre: producto_id
+    tipo: string
+    nulo: false
+  - nombre: fecha_resena
+    tipo: date
+    nulo: false
+  - nombre: calificacion
+    tipo: int
+    nulo: false
+    regla: entre 1 y 5
+  - nombre: comentario
+    tipo: string
+    nulo: true
+  - nombre: tags
+    tipo: array<string>
+    nulo: true
+  - nombre: respuestas
+    tipo: array<struct<autor:string,texto:string,fecha:string>>
+    nulo: true
+  - nombre: metadata
+    tipo: string
+    nulo: true
 reglas_de_calidad:
-  - nombre: llave_no_nula
-    condicion: "resena_id IS NOT NULL"
+  - nombre: calificacion_rango
+    condicion: "calificacion BETWEEN 1 AND 5"
     politica: drop
     destino_rechazos: silver.cuarentena
 problemas_conocidos:
-  - "<completar según exploración de Bronze>"
+  - calificaciones fuera del rango [1, 5]
+  - reseñas asociadas a productos inexistentes en el catálogo

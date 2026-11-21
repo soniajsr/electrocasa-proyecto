@@ -7,10 +7,34 @@ columnas:
   - nombre: id_empleado
     tipo: string
     nulo: false
+  - nombre: dni
+    tipo: string
+    nulo: false
+    enmascarado: true
+  - nombre: nombre
+    tipo: string
+    nulo: false
+  - nombre: sucursal_id
+    tipo: string
+    nulo: false
+  - nombre: cargo
+    tipo: string
+    nulo: true
+  - nombre: salario
+    tipo: string
+    nulo: true
+    enmascarado: true
+  - nombre: tipo_evento
+    tipo: string
+    nulo: false
+  - nombre: fecha_evento_dt
+    tipo: date
+    nulo: false
 reglas_de_calidad:
-  - nombre: llave_no_nula
-    condicion: "id_empleado IS NOT NULL"
+  - nombre: llave_y_fecha_validas
+    condicion: "id_empleado IS NOT NULL AND fecha_evento IS NOT NULL"
     politica: drop
     destino_rechazos: silver.cuarentena
 problemas_conocidos:
-  - "<completar según exploración de Bronze>"
+  - múltiples eventos en el mismo día desempatados por secuencia_evento
+  - eventos de llegada tardía en lotes posteriores que reordenan vigencias SCD Type 2

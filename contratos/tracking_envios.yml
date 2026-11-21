@@ -5,12 +5,28 @@ frecuencia_esperada: incremental
 llave: evento_id
 columnas:
   - nombre: evento_id
+    tipo: int
+    nulo: false
+  - nombre: tracking_id
     tipo: string
     nulo: false
+  - nombre: venta_id
+    tipo: string
+    nulo: false
+  - nombre: courier
+    tipo: string
+    nulo: false
+  - nombre: estado_entrega
+    tipo: string
+    nulo: false
+  - nombre: fecha_modificacion
+    tipo: timestamp
+    nulo: false
 reglas_de_calidad:
-  - nombre: llave_no_nula
-    condicion: "evento_id IS NOT NULL"
+  - nombre: estado_valido
+    condicion: "estado_entrega IN ('pendiente', 'en_transito', 'entregado', 'devuelto')"
     politica: drop
     destino_rechazos: silver.cuarentena
 problemas_conocidos:
-  - "<completar según exploración de Bronze>"
+  - eventos reprocesados con distinto evento_id para el mismo tracking_id, estado y fecha_modificacion
+  - variantes de escritura en estado_entrega y courier

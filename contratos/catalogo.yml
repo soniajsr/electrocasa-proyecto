@@ -7,10 +7,30 @@ columnas:
   - nombre: producto_id
     tipo: string
     nulo: false
+  - nombre: nombre_producto
+    tipo: string
+    nulo: false
+  - nombre: categoria
+    tipo: string
+    nulo: false
+  - nombre: marca
+    tipo: string
+    nulo: true
+  - nombre: precio_lista
+    tipo: decimal(12,2)
+    nulo: false
+    regla: mayor a 0
+  - nombre: activo
+    tipo: boolean
+    nulo: false
+  - nombre: fecha_snapshot
+    tipo: date
+    nulo: false
 reglas_de_calidad:
-  - nombre: llave_no_nula
-    condicion: "producto_id IS NOT NULL"
+  - nombre: precio_valido
+    condicion: "precio_lista > 0"
     politica: drop
     destino_rechazos: silver.cuarentena
 problemas_conocidos:
-  - "<completar según exploración de Bronze>"
+  - precio_lista llega ocasionalmente como cadena con prefijo de moneda
+  - productos duplicados dentro del snapshot de marzo

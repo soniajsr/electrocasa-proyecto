@@ -7,10 +7,22 @@ columnas:
   - nombre: sucursal_id
     tipo: string
     nulo: false
+  - nombre: nombre
+    tipo: string
+    nulo: false
+  - nombre: distrito
+    tipo: string
+    nulo: false
+  - nombre: ciudad
+    tipo: string
+    nulo: false
+  - nombre: region
+    tipo: string
+    nulo: false
 reglas_de_calidad:
   - nombre: llave_no_nula
     condicion: "sucursal_id IS NOT NULL"
     politica: drop
     destino_rechazos: silver.cuarentena
 problemas_conocidos:
-  - "<completar según exploración de Bronze>"
+  - inconsistencias de mayúsculas/minúsculas y espacios en ciudad y región
