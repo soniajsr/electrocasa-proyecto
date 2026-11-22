@@ -12,7 +12,7 @@ resources:
           url: /Volumes/${var.catalogo}/default/vol_landing/
           min_time_between_triggers_seconds: 300
       tasks:
-        - task_key: ingesta_tracking_azuresql
+        - task_key: ingesta_tracking_bd
           pipeline_task:
             pipeline_id: ${var.tracking_pipeline_id}
           max_retries: 2
@@ -20,7 +20,7 @@ resources:
 
         - task_key: pipeline_medallion_electrocasa
           depends_on:
-            - task_key: ingesta_tracking_azuresql
+            - task_key: ingesta_tracking_bd
           pipeline_task:
             pipeline_id: ${resources.pipelines.electrocasa_medallion_pipeline.id}
           max_retries: 1
