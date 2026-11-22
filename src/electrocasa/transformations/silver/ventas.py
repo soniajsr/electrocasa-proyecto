@@ -8,7 +8,7 @@ def ventas_silver():
     return (
         spark.readStream.table("bronze.ventas")
         .withColumn("fecha_venta", parsear_fecha_flexible(F.col("fecha_venta")))
-        .withColumn("monto_total", limpiar_decimal(F.col("monto_total")))
+        .withColumn("monto_total", F.regexp_replace(F.col("monto_total"), "[^0-9.-]", "").cast("decimal(12,2)"))
         .withColumn("cantidad", F.col("cantidad").cast("int"))
         .dropDuplicates(["venta_id"])
     )
