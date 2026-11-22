@@ -16,7 +16,7 @@ variables:
     default: "71338e07a0c68d71"
   tracking_pipeline_id:
     description: ID del pipeline de Lakeflow Connect para Tracking de Envíos
-    default: "a37947e5-5b5e-46bb-bf07-bb95785e945b" 
+    default: "aa077994-8011-42f1-af95-b84f1d1158f7" 
   notification_email:
     description: Correo electrónico real para alertas y fallos del job
     default: "sonia.jsr@gmail.com"
