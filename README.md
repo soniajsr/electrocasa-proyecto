@@ -142,3 +142,28 @@ A continuación se presentan los conteos exactos verificados en `01_validacion_c
   ![Validación Lote 2](docs/Paso_2_validacion_conteo.png)
 * **Ejecución Lote 3 (`Run 255827525152057`):**
   ![Validación Lote 3](docs/Paso_3_validacion_conteo.png)
+
+### 7. Gobierno, Seguridad y Auditoría en Unity Catalog
+
+### Tablas Managed y Control de Acceso (RBAC)
+Todas las tablas de las capas `bronze`, `silver` y `gold` se crearon como **tablas managed** dentro de `electrocasa_dev`, delegando el ciclo de vida del almacenamiento a Unity Catalog sin requerir *storage credentials* ni *external locations*.
+
+Se configuraron permisos diferenciados para los tres grupos del proyecto mediante sentencias `GRANT` ejecutadas en `notebooks/00_setup.ipynb`:
+
+| Grupo | Privilegios otorgados |
+| :--- | :--- |
+| `electrocasa_ingenieria` | `USE CATALOG`, `USE SCHEMA`, `SELECT`, `MODIFY`, `CREATE TABLE` sobre `bronze`, `silver` y `gold` |
+| `electrocasa_analistas` | `USE CATALOG`, `USE SCHEMA` y `SELECT` exclusivamente sobre `gold` |
+| `electrocasa_auditoria` | `USE CATALOG`, `USE SCHEMA` y `SELECT` sobre `gold` + evidencia de auditoría y lineage |
+
+### Demostración de `GRANT` y `REVOKE` (`SHOW GRANTS`)
+Se otorgó temporalmente `SELECT` sobre el esquema `silver` al grupo `electrocasa_analistas` y posteriormente se revocó para mantener el principio de mínimo privilegio:
+
+```sql
+GRANT SELECT ON SCHEMA electrocasa_dev.silver TO `electrocasa_analistas`;
+SHOW GRANTS `electrocasa_analistas` ON SCHEMA electrocasa_dev.silver;
+-- Resultado antes del REVOKE: Principal = electrocasa_analistas | ActionType = SELECT | ObjectKey = electrocasa_dev.silver
+
+REVOKE SELECT ON SCHEMA electrocasa_dev.silver FROM `electrocasa_analistas`;
+SHOW GRANTS `electrocasa_analistas` ON SCHEMA electrocasa_dev.silver;
+-- Resultado después del REVOKE: (0 rows - privilegio revocado)
